@@ -1,0 +1,155 @@
+[
+  {
+    "id": "q1", "n": 1, "kind": "single", "required": true, "cols": 2,
+    "title": { "en": "Who is this for?", "zh": "给谁挑？" },
+    "options": [
+      { "id": "self", "label": { "en": "For me", "zh": "给自己" }, "emoji": "🙋", "colors": ["#F6E3C8", "#F2C9A6"] },
+      { "id": "gift", "label": { "en": "A gift", "zh": "送礼物" }, "emoji": "🎁", "colors": ["#F6D3DC", "#E9A6B9"] }
+    ]
+  },
+  {
+    "id": "q2", "n": 2, "kind": "anchors", "required": false, "max": 3,
+    "title": { "en": "Pick up to 3 perfumes you've loved", "zh": "选最多 3 支你喜欢过的香" },
+    "titleGift": { "en": "Perfumes they already wear (if you know)", "zh": "TA 平时用的香（如果你知道）" },
+    "hint": { "en": "Type a brand or name", "zh": "输入品牌或香名" },
+    "options": []
+  },
+  {
+    "id": "q3", "n": 3, "kind": "multi", "required": true, "max": 2, "cols": 2,
+    "title": { "en": "Which smell would you avoid?", "zh": "哪种味道你最受不了？" },
+    "titleGift": { "en": "Which smell would they avoid?", "zh": "哪种味道 TA 最受不了？" },
+    "hint": { "en": "Pick up to 2", "zh": "最多选 2 个" },
+    "options": [
+      { "id": "lift", "label": { "en": "Heavy perfume in a lift", "zh": "电梯里的浓香水" }, "emoji": "💨", "colors": ["#EADBE4", "#CFAFC3"], "dims": ["AMB", "FLR"] },
+      { "id": "candy", "label": { "en": "Sugary candy", "zh": "甜腻糖果" }, "emoji": "🍭", "colors": ["#FBE0EC", "#F5B5CF"], "dims": ["GOU", "FRU"] },
+      { "id": "powder", "label": { "en": "Grandma's powder", "zh": "奶奶的爽身粉" }, "emoji": "👵", "colors": ["#F4ECEF", "#E3CCD5"], "dims": ["FLR"] },
+      { "id": "smoke", "label": { "en": "Smoke and incense", "zh": "烟味和香火" }, "emoji": "🕯️", "colors": ["#D9D4D0", "#A8A09A"], "dims": ["SMK"] },
+      { "id": "cleaner", "label": { "en": "Cleaning-product citrus", "zh": "清洁剂柠檬味" }, "emoji": "🧽", "colors": ["#FBF3C8", "#EEDB7C"], "dims": ["CIT"] },
+      { "id": "none", "label": { "en": "None of these", "zh": "都还好" }, "emoji": "👌", "colors": ["#E5EFE3", "#BFD7BA"], "dims": [], "exclusive": true }
+    ]
+  },
+  {
+    "id": "q4", "n": 4, "kind": "single", "required": true, "cols": 2,
+    "title": { "en": "Pick a place", "zh": "选一个地方" },
+    "options": [
+      { "id": "rainforest", "label": { "en": "Rainforest after rain", "zh": "雨后的热带雨林" }, "why": { "en": "rainforest", "zh": "雨后雨林" }, "emoji": "🌿", "colors": ["#CFE3C4", "#7FAF78"], "vec": { "GRN": 3, "AQU": 1 } },
+      { "id": "beach", "label": { "en": "Beach house morning", "zh": "海边小屋的早晨" }, "why": { "en": "beach house", "zh": "海边小屋" }, "emoji": "🏖️", "colors": ["#D7EBF5", "#8FC1DD"], "vec": { "AQU": 3, "CIT": 1 } },
+      { "id": "flowers", "label": { "en": "Flower market", "zh": "花市" }, "why": { "en": "flower market", "zh": "花市" }, "emoji": "💐", "colors": ["#FBDDE6", "#F2A7B8"], "vec": { "FLR": 3 } },
+      { "id": "bakery", "label": { "en": "Bakery at 8am", "zh": "早上 8 点的面包店" }, "why": { "en": "bakery", "zh": "面包店" }, "emoji": "🥐", "colors": ["#F8E6CF", "#E7B58C"], "vec": { "GOU": 3 } },
+      { "id": "temple", "label": { "en": "Temple or old library", "zh": "寺庙或旧图书馆" }, "why": { "en": "old library", "zh": "旧图书馆" }, "emoji": "📜", "colors": ["#E6DACB", "#A88B6C"], "vec": { "WOO": 2, "SMK": 2 } },
+      { "id": "laundry", "label": { "en": "Clean sheets, fresh laundry", "zh": "刚晒好的床单" }, "why": { "en": "fresh laundry", "zh": "刚洗好的床单" }, "emoji": "🧺", "colors": ["#F4F1EC", "#DCD3C8"], "vec": { "MUS": 3 } },
+      { "id": "nightmarket", "label": { "en": "Night market spices", "zh": "夜市的香料" }, "why": { "en": "night market", "zh": "夜市" }, "emoji": "🏮", "colors": ["#F6D2BE", "#C96A3F"], "vec": { "AMB": 3 } },
+      { "id": "fruitstall", "label": { "en": "Summer fruit stall", "zh": "夏天的水果摊" }, "why": { "en": "fruit stall", "zh": "水果摊" }, "emoji": "🍑", "colors": ["#FDE2CF", "#F6A97E"], "vec": { "FRU": 3, "CIT": 1 } }
+    ]
+  },
+  {
+    "id": "q5", "n": 5, "kind": "single", "required": true, "cols": 2,
+    "title": { "en": "Pick a drink", "zh": "选一杯饮品" },
+    "options": [
+      { "id": "lemontea", "label": { "en": "Iced lemon tea", "zh": "冰柠檬茶" }, "why": { "en": "iced lemon tea", "zh": "冰柠檬茶" }, "emoji": "🍋", "colors": ["#FBF0C2", "#F6C945"], "vec": { "CIT": 3 } },
+      { "id": "matcha", "label": { "en": "Matcha", "zh": "抹茶" }, "why": { "en": "matcha", "zh": "抹茶" }, "emoji": "🍵", "colors": ["#DDEBCB", "#8DB36E"], "vec": { "GRN": 3 } },
+      { "id": "coconut", "label": { "en": "Coconut water", "zh": "椰子水" }, "why": { "en": "coconut water", "zh": "椰子水" }, "emoji": "🥥", "colors": ["#EEF5F4", "#BCD9D6"], "vec": { "AQU": 2, "MUS": 1 } },
+      { "id": "lychee", "label": { "en": "Lychee rose soda", "zh": "荔枝玫瑰汽水" }, "why": { "en": "lychee rose soda", "zh": "荔枝玫瑰汽水" }, "emoji": "🌹", "colors": ["#FCE1E8", "#EE9DB2"], "vec": { "FLR": 2, "FRU": 2 } },
+      { "id": "latte", "label": { "en": "Vanilla latte", "zh": "香草拿铁" }, "why": { "en": "vanilla latte", "zh": "香草拿铁" }, "emoji": "☕", "colors": ["#F3E4D2", "#C9A07A"], "vec": { "GOU": 3 } },
+      { "id": "chai", "label": { "en": "Chai", "zh": "印度奶茶" }, "why": { "en": "chai", "zh": "印度奶茶" }, "emoji": "🫖", "colors": ["#F2D9C4", "#B5713F"], "vec": { "AMB": 3 } },
+      { "id": "oolong", "label": { "en": "Oolong or whisky", "zh": "乌龙茶或威士忌" }, "why": { "en": "oolong", "zh": "乌龙" }, "emoji": "🥃", "colors": ["#EBD8BD", "#9C6B3C"], "vec": { "WOO": 2, "SMK": 1 } }
+    ]
+  },
+  {
+    "id": "q6", "n": 6, "kind": "single", "required": true, "cols": 2,
+    "title": { "en": "Pick a fabric", "zh": "选一种面料" },
+    "options": [
+      { "id": "shirt", "label": { "en": "Crisp white shirt", "zh": "挺括白衬衫" }, "why": { "en": "white shirt", "zh": "白衬衫" }, "emoji": "👔", "colors": ["#F7F9FB", "#D5DFE8"], "vec": { "CIT": 2, "AQU": 1 } },
+      { "id": "linen", "label": { "en": "Linen", "zh": "亚麻" }, "why": { "en": "linen", "zh": "亚麻" }, "emoji": "🌾", "colors": ["#EEE8DA", "#C8BC9E"], "vec": { "GRN": 2, "WOO": 1 } },
+      { "id": "silk", "label": { "en": "Silk", "zh": "丝绸" }, "why": { "en": "silk", "zh": "丝绸" }, "emoji": "🎀", "colors": ["#FBEAF0", "#E7B8C8"], "vec": { "FLR": 2, "MUS": 1 } },
+      { "id": "cashmere", "label": { "en": "Cashmere", "zh": "羊绒" }, "why": { "en": "cashmere", "zh": "羊绒" }, "emoji": "🧣", "colors": ["#F1E9E1", "#CDB9A6"], "vec": { "MUS": 2, "WOO": 1 } },
+      { "id": "velvet", "label": { "en": "Velvet", "zh": "丝绒" }, "why": { "en": "velvet", "zh": "丝绒" }, "emoji": "🍷", "colors": ["#E9CFD3", "#8E2F45"], "vec": { "AMB": 2, "GOU": 1 } },
+      { "id": "leather", "label": { "en": "Leather jacket", "zh": "皮夹克" }, "why": { "en": "leather jacket", "zh": "皮夹克" }, "emoji": "🧥", "colors": ["#D6D0CC", "#4A4245"], "vec": { "SMK": 3 } }
+    ]
+  },
+  {
+    "id": "q7", "n": 7, "kind": "multi", "required": true, "max": 2, "cols": 2,
+    "title": { "en": "Where will you wear it most?", "zh": "最常在哪里喷？" },
+    "titleGift": { "en": "Where will they wear it most?", "zh": "TA 最常在哪里喷？" },
+    "hint": { "en": "Pick up to 2", "zh": "最多选 2 个" },
+    "options": [
+      { "id": "office", "label": { "en": "Office with aircon", "zh": "开冷气的办公室" }, "why": { "en": "office", "zh": "办公室" }, "emoji": "🏢", "colors": ["#E6EEF4", "#A9C0D3"], "tag": "office" },
+      { "id": "heat", "label": { "en": "Outdoors in the heat", "zh": "大太阳底下" }, "why": { "en": "heat", "zh": "炎热户外" }, "emoji": "☀️", "colors": ["#FCEFC7", "#F4BE4F"], "tag": "heat" },
+      { "id": "evening", "label": { "en": "Dates and evenings", "zh": "约会和夜晚" }, "why": { "en": "evenings out", "zh": "夜晚约会" }, "emoji": "🌙", "colors": ["#DCD6EA", "#6D5E9C"], "tag": "evening" },
+      { "id": "casual", "label": { "en": "Weekends and travel", "zh": "周末和旅行" }, "why": { "en": "weekends", "zh": "周末" }, "emoji": "✈️", "colors": ["#DDF0EA", "#86C2AE"], "tag": "casual" },
+      { "id": "everywhere", "label": { "en": "Everywhere", "zh": "哪里都喷" }, "emoji": "🌍", "colors": ["#EFEAE4", "#C7BBAE"], "tag": null, "exclusive": true }
+    ]
+  },
+  {
+    "id": "q8", "n": 8, "kind": "single", "required": true, "cols": 1,
+    "title": { "en": "How noticeable?", "zh": "希望多明显？" },
+    "options": [
+      { "id": "hug", "label": { "en": "Only people who hug me", "zh": "只有拥抱时才闻到" }, "emoji": "🤗", "colors": ["#F6ECE4", "#E2C8B4"], "value": 1 },
+      { "id": "arm", "label": { "en": "Arm's length", "zh": "一臂之内" }, "emoji": "👋", "colors": ["#F3E6DC", "#D7AE8F"], "value": 2 },
+      { "id": "room", "label": { "en": "Fills the room", "zh": "整个房间都知道" }, "emoji": "✨", "colors": ["#F0DCCF", "#C98A62"], "value": 3 }
+    ]
+  },
+  {
+    "id": "q9", "n": 9, "kind": "grid16", "required": false, "cols": 4,
+    "title": { "en": "Your 16-type personality", "zh": "你的 16 型人格" },
+    "titleGift": { "en": "Their 16-type personality", "zh": "TA 的 16 型人格" },
+    "options": [
+      { "id": "INTJ", "label": { "en": "INTJ", "zh": "INTJ" }, "letters": "INTJ", "colors": ["#E7E1F0", "#B9A9D3"] },
+      { "id": "INTP", "label": { "en": "INTP", "zh": "INTP" }, "letters": "INTP", "colors": ["#E7E1F0", "#B9A9D3"] },
+      { "id": "ENTJ", "label": { "en": "ENTJ", "zh": "ENTJ" }, "letters": "ENTJ", "colors": ["#E7E1F0", "#B9A9D3"] },
+      { "id": "ENTP", "label": { "en": "ENTP", "zh": "ENTP" }, "letters": "ENTP", "colors": ["#E7E1F0", "#B9A9D3"] },
+      { "id": "INFJ", "label": { "en": "INFJ", "zh": "INFJ" }, "letters": "INFJ", "colors": ["#DCEDDF", "#9CC7A4"] },
+      { "id": "INFP", "label": { "en": "INFP", "zh": "INFP" }, "letters": "INFP", "colors": ["#DCEDDF", "#9CC7A4"] },
+      { "id": "ENFJ", "label": { "en": "ENFJ", "zh": "ENFJ" }, "letters": "ENFJ", "colors": ["#DCEDDF", "#9CC7A4"] },
+      { "id": "ENFP", "label": { "en": "ENFP", "zh": "ENFP" }, "letters": "ENFP", "colors": ["#DCEDDF", "#9CC7A4"] },
+      { "id": "ISTJ", "label": { "en": "ISTJ", "zh": "ISTJ" }, "letters": "ISTJ", "colors": ["#DCE8F2", "#9DBBD6"] },
+      { "id": "ISFJ", "label": { "en": "ISFJ", "zh": "ISFJ" }, "letters": "ISFJ", "colors": ["#DCE8F2", "#9DBBD6"] },
+      { "id": "ESTJ", "label": { "en": "ESTJ", "zh": "ESTJ" }, "letters": "ESTJ", "colors": ["#DCE8F2", "#9DBBD6"] },
+      { "id": "ESFJ", "label": { "en": "ESFJ", "zh": "ESFJ" }, "letters": "ESFJ", "colors": ["#DCE8F2", "#9DBBD6"] },
+      { "id": "ISTP", "label": { "en": "ISTP", "zh": "ISTP" }, "letters": "ISTP", "colors": ["#FBEBCB", "#EBC173"] },
+      { "id": "ISFP", "label": { "en": "ISFP", "zh": "ISFP" }, "letters": "ISFP", "colors": ["#FBEBCB", "#EBC173"] },
+      { "id": "ESTP", "label": { "en": "ESTP", "zh": "ESTP" }, "letters": "ESTP", "colors": ["#FBEBCB", "#EBC173"] },
+      { "id": "ESFP", "label": { "en": "ESFP", "zh": "ESFP" }, "letters": "ESFP", "colors": ["#FBEBCB", "#EBC173"] }
+    ]
+  },
+  {
+    "id": "q10", "n": 10, "kind": "signs", "required": false, "cols": 3,
+    "title": { "en": "Your star sign", "zh": "你的星座" },
+    "titleGift": { "en": "Their star sign", "zh": "TA 的星座" },
+    "options": [
+      { "id": "aries", "label": { "en": "Aries", "zh": "白羊" }, "emoji": "♈", "sub": { "en": "Mar 21 – Apr 19", "zh": "3.21–4.19" }, "element": "fire" },
+      { "id": "taurus", "label": { "en": "Taurus", "zh": "金牛" }, "emoji": "♉", "sub": { "en": "Apr 20 – May 20", "zh": "4.20–5.20" }, "element": "earth" },
+      { "id": "gemini", "label": { "en": "Gemini", "zh": "双子" }, "emoji": "♊", "sub": { "en": "May 21 – Jun 20", "zh": "5.21–6.20" }, "element": "air" },
+      { "id": "cancer", "label": { "en": "Cancer", "zh": "巨蟹" }, "emoji": "♋", "sub": { "en": "Jun 21 – Jul 22", "zh": "6.21–7.22" }, "element": "water" },
+      { "id": "leo", "label": { "en": "Leo", "zh": "狮子" }, "emoji": "♌", "sub": { "en": "Jul 23 – Aug 22", "zh": "7.23–8.22" }, "element": "fire" },
+      { "id": "virgo", "label": { "en": "Virgo", "zh": "处女" }, "emoji": "♍", "sub": { "en": "Aug 23 – Sep 22", "zh": "8.23–9.22" }, "element": "earth" },
+      { "id": "libra", "label": { "en": "Libra", "zh": "天秤" }, "emoji": "♎", "sub": { "en": "Sep 23 – Oct 22", "zh": "9.23–10.22" }, "element": "air" },
+      { "id": "scorpio", "label": { "en": "Scorpio", "zh": "天蝎" }, "emoji": "♏", "sub": { "en": "Oct 23 – Nov 21", "zh": "10.23–11.21" }, "element": "water" },
+      { "id": "sagittarius", "label": { "en": "Sagittarius", "zh": "射手" }, "emoji": "♐", "sub": { "en": "Nov 22 – Dec 21", "zh": "11.22–12.21" }, "element": "fire" },
+      { "id": "capricorn", "label": { "en": "Capricorn", "zh": "摩羯" }, "emoji": "♑", "sub": { "en": "Dec 22 – Jan 19", "zh": "12.22–1.19" }, "element": "earth" },
+      { "id": "aquarius", "label": { "en": "Aquarius", "zh": "水瓶" }, "emoji": "♒", "sub": { "en": "Jan 20 – Feb 18", "zh": "1.20–2.18" }, "element": "air" },
+      { "id": "pisces", "label": { "en": "Pisces", "zh": "双鱼" }, "emoji": "♓", "sub": { "en": "Feb 19 – Mar 20", "zh": "2.19–3.20" }, "element": "water" }
+    ]
+  },
+  {
+    "id": "q11", "n": 11, "kind": "single", "required": true, "cols": 2,
+    "title": { "en": "Budget per full bottle", "zh": "一瓶的预算" },
+    "options": [
+      { "id": "t1", "label": { "en": "Under S$100", "zh": "S$100 以下" }, "emoji": "💸", "colors": ["#E9F1E4", "#B7D1A6"], "tier": 1 },
+      { "id": "t2", "label": { "en": "S$100 to 250", "zh": "S$100 – 250" }, "emoji": "💳", "colors": ["#F3EBDD", "#D9BF92"], "tier": 2 },
+      { "id": "t3", "label": { "en": "Over S$250", "zh": "S$250 以上" }, "emoji": "💎", "colors": ["#EEE3F0", "#BFA2C6"], "tier": 3 },
+      { "id": "all", "label": { "en": "Show me all", "zh": "都看看" }, "emoji": "🎲", "colors": ["#EFEAE4", "#C7BBAE"], "tier": "all" }
+    ]
+  },
+  {
+    "id": "q12", "n": 12, "kind": "single", "required": false, "cols": 2,
+    "title": { "en": "Style lean", "zh": "风格偏好" },
+    "titleGift": { "en": "Their style lean", "zh": "TA 的风格偏好" },
+    "options": [
+      { "id": "fem", "label": { "en": "Feminine", "zh": "偏女性" }, "emoji": "🌷", "colors": ["#FBE3EA", "#EFA9BD"], "style": "fem" },
+      { "id": "uni", "label": { "en": "Unisex", "zh": "中性" }, "emoji": "☯️", "colors": ["#ECEAE6", "#BDB6AC"], "style": "uni" },
+      { "id": "masc", "label": { "en": "Masculine", "zh": "偏男性" }, "emoji": "🌲", "colors": ["#DFE8E1", "#8DA894"], "style": "masc" },
+      { "id": "any", "label": { "en": "No preference", "zh": "都可以" }, "emoji": "🤷", "colors": ["#EFEAE4", "#C7BBAE"], "style": null }
+    ]
+  }
+]

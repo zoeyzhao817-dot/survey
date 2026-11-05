@@ -1,0 +1,333 @@
+[
+ {
+  "id": "chanel-no5",
+  "brand": "Chanel",
+  "name": "N°5",
+  "accords": {
+   "FLR": 4,
+   "MUS": 3,
+   "AMB": 2,
+   "WOO": 1
+  }
+ },
+ {
+  "id": "chanel-coco-mademoiselle",
+  "brand": "Chanel",
+  "name": "Coco Mademoiselle",
+  "accords": {
+   "FLR": 3,
+   "CIT": 2,
+   "WOO": 2,
+   "MUS": 2,
+   "AMB": 1,
+   "FRU": 1
+  }
+ },
+ {
+  "id": "chanel-chance",
+  "brand": "Chanel",
+  "name": "Chance",
+  "accords": {
+   "FLR": 3,
+   "FRU": 2,
+   "MUS": 2,
+   "AMB": 1,
+   "CIT": 1
+  }
+ },
+ {
+  "id": "chanel-allure-homme-sport",
+  "brand": "Chanel",
+  "name": "Allure Homme Sport",
+  "accords": {
+   "AQU": 3,
+   "CIT": 2,
+   "MUS": 3,
+   "AMB": 1,
+   "WOO": 1
+  }
+ },
+ {
+  "id": "pr-1-million",
+  "brand": "Paco Rabanne",
+  "name": "1 Million",
+  "accords": {
+   "AMB": 4,
+   "GOU": 3,
+   "WOO": 2,
+   "CIT": 1
+  }
+ },
+ {
+  "id": "jpg-le-male",
+  "brand": "Jean Paul Gaultier",
+  "name": "Le Male",
+  "accords": {
+   "AMB": 3,
+   "GOU": 3,
+   "FLR": 2,
+   "MUS": 1
+  }
+ },
+ {
+  "id": "versace-eros",
+  "brand": "Versace",
+  "name": "Eros",
+  "accords": {
+   "GOU": 3,
+   "GRN": 2,
+   "AMB": 2,
+   "CIT": 1,
+   "WOO": 1
+  }
+ },
+ {
+  "id": "ysl-y-edp",
+  "brand": "Yves Saint Laurent",
+  "name": "Y Eau de Parfum",
+  "accords": {
+   "AMB": 2,
+   "CIT": 2,
+   "GRN": 2,
+   "WOO": 3,
+   "GOU": 1
+  }
+ },
+ {
+  "id": "ch-good-girl",
+  "brand": "Carolina Herrera",
+  "name": "Good Girl",
+  "accords": {
+   "GOU": 4,
+   "FLR": 3,
+   "AMB": 2
+  }
+ },
+ {
+  "id": "burberry-her",
+  "brand": "Burberry",
+  "name": "Her",
+  "accords": {
+   "FRU": 4,
+   "GOU": 3,
+   "FLR": 1,
+   "MUS": 1
+  }
+ },
+ {
+  "id": "dg-the-one-men",
+  "brand": "Dolce&Gabbana",
+  "name": "The One for Men",
+  "accords": {
+   "AMB": 4,
+   "SMK": 2,
+   "WOO": 2,
+   "GOU": 1
+  }
+ },
+ {
+  "id": "prada-paradoxe",
+  "brand": "Prada",
+  "name": "Paradoxe",
+  "accords": {
+   "FLR": 3,
+   "GOU": 2,
+   "AMB": 2,
+   "MUS": 2
+  }
+ },
+ {
+  "id": "valentino-bir-donna",
+  "brand": "Valentino",
+  "name": "Born in Roma Donna",
+  "accords": {
+   "GOU": 4,
+   "FLR": 2,
+   "AMB": 2
+  }
+ },
+ {
+  "id": "gucci-guilty-ph",
+  "brand": "Gucci",
+  "name": "Guilty Pour Homme",
+  "accords": {
+   "AMB": 2,
+   "FLR": 2,
+   "WOO": 2,
+   "CIT": 2
+  }
+ },
+ {
+  "id": "armani-si",
+  "brand": "Giorgio Armani",
+  "name": "Sì",
+  "accords": {
+   "FRU": 3,
+   "GOU": 3,
+   "FLR": 2,
+   "WOO": 1
+  }
+ },
+ {
+  "id": "ysl-mon-paris",
+  "brand": "Yves Saint Laurent",
+  "name": "Mon Paris",
+  "accords": {
+   "FRU": 4,
+   "FLR": 2,
+   "GOU": 2,
+   "MUS": 1
+  }
+ },
+ {
+  "id": "dior-homme-intense",
+  "brand": "Dior",
+  "name": "Dior Homme Intense",
+  "accords": {
+   "FLR": 3,
+   "AMB": 2,
+   "WOO": 3,
+   "GOU": 1
+  }
+ },
+ {
+  "id": "hermes-twilly",
+  "brand": "Hermès",
+  "name": "Twilly d'Hermès",
+  "accords": {
+   "FLR": 3,
+   "AMB": 2,
+   "GOU": 1,
+   "CIT": 1
+  }
+ },
+ {
+  "id": "jm-peony-blush-suede",
+  "brand": "Jo Malone London",
+  "name": "Peony & Blush Suede",
+  "accords": {
+   "FLR": 4,
+   "FRU": 2,
+   "MUS": 2
+  }
+ },
+ {
+  "id": "jm-blackberry-bay",
+  "brand": "Jo Malone London",
+  "name": "Blackberry & Bay",
+  "accords": {
+   "FRU": 4,
+   "GRN": 2,
+   "WOO": 1
+  }
+ },
+ {
+  "id": "ag-thank-u-next",
+  "brand": "Ariana Grande",
+  "name": "Thank U, Next",
+  "accords": {
+   "FRU": 3,
+   "GOU": 3,
+   "MUS": 1
+  }
+ },
+ {
+  "id": "issey-leau-ph",
+  "brand": "Issey Miyake",
+  "name": "L'Eau d'Issey Pour Homme",
+  "accords": {
+   "CIT": 4,
+   "AQU": 2,
+   "WOO": 2,
+   "GRN": 1
+  }
+ },
+ {
+  "id": "rl-polo-blue",
+  "brand": "Ralph Lauren",
+  "name": "Polo Blue",
+  "accords": {
+   "AQU": 4,
+   "GRN": 2,
+   "CIT": 1,
+   "MUS": 1
+  }
+ },
+ {
+  "id": "pdm-layton",
+  "brand": "Parfums de Marly",
+  "name": "Layton",
+  "accords": {
+   "AMB": 3,
+   "GOU": 3,
+   "FRU": 2,
+   "FLR": 1,
+   "WOO": 2
+  }
+ },
+ {
+  "id": "pdm-delina",
+  "brand": "Parfums de Marly",
+  "name": "Delina",
+  "accords": {
+   "FLR": 4,
+   "FRU": 3,
+   "MUS": 2
+  }
+ },
+ {
+  "id": "byredo-bal-dafrique",
+  "brand": "Byredo",
+  "name": "Bal d'Afrique",
+  "accords": {
+   "WOO": 3,
+   "CIT": 2,
+   "FLR": 2,
+   "MUS": 2,
+   "AMB": 1
+  }
+ },
+ {
+  "id": "diptyque-orpheon",
+  "brand": "Diptyque",
+  "name": "Orphéon",
+  "accords": {
+   "WOO": 3,
+   "FLR": 2,
+   "GRN": 1,
+   "AMB": 1
+  }
+ },
+ {
+  "id": "ck-eternity",
+  "brand": "Calvin Klein",
+  "name": "Eternity",
+  "accords": {
+   "FLR": 3,
+   "GRN": 2,
+   "CIT": 1,
+   "MUS": 2
+  }
+ },
+ {
+  "id": "gucci-flora-gardenia",
+  "brand": "Gucci",
+  "name": "Flora Gorgeous Gardenia",
+  "accords": {
+   "FLR": 4,
+   "FRU": 2,
+   "GOU": 1
+  }
+ },
+ {
+  "id": "mj-perfect",
+  "brand": "Marc Jacobs",
+  "name": "Perfect",
+  "accords": {
+   "FLR": 3,
+   "GOU": 2,
+   "FRU": 1,
+   "MUS": 1
+  }
+ }
+]

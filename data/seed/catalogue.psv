@@ -1,0 +1,135 @@
+# Curated launch catalogue (seed). One fragrance per line, pipe-separated:
+# id|brand|name|concentration|accords|gender|projection|crowd_pleaser|heat_ok|occasions|price_tier|price_sgd|size|blurb_en|blurb_zh
+# accords use our 10 dimensions on a 0-5 scale. occasions: o=office h=heat e=evening c=casual.
+# Prices are curator estimates for Singapore retail; confirm before launch.
+4711-original|4711|Echt Kölnisch Wasser|EDC|CIT5 GRN1 FLR1 MUS1|uni|1|0.70|1|ohc|1|35|100ml|The original cologne: a splash of lemon and neroli.|最经典的古龙水，一抹柠檬和橙花。
+ck-one|Calvin Klein|CK One|EDT|CIT3 GRN2 AQU1 FLR1 MUS2|uni|2|0.78|1|ohc|1|85|100ml|Clean tea and citrus, the shared-bathroom classic.|清爽茶感和柑橘，经典中性香。
+lacoste-blanc|Lacoste|L.12.12 Blanc|EDT|CIT3 GRN1 AQU1 MUS2 WOO1|masc|2|0.74|1|ohc|1|89|100ml|Grapefruit and fresh cotton, like a white polo shirt.|葡萄柚和干净棉布，像一件白色 Polo 衫。
+versace-ph|Versace|Pour Homme|EDT|CIT3 AQU2 GRN1 WOO1 MUS1|masc|2|0.76|1|ohc|1|95|100ml|Bright lemon and sea air, easy all day.|明亮柠檬加海风，全天都轻松。
+clinique-happy|Clinique|Happy|EDP|CIT4 FRU2 FLR2 MUS1|fem|2|0.72|1|ohc|1|89|50ml|Mandarin and grapefruit in a good mood.|柑橘和葡萄柚，一闻就开心。
+dg-light-blue|Dolce&Gabbana|Light Blue|EDT|CIT4 FRU2 AQU1 WOO2 MUS1|fem|2|0.85|1|hc|2|155|100ml|Sicilian lemon and green apple on a hot day.|西西里柠檬和青苹果，夏天的味道。
+jm-lime-basil|Jo Malone London|Lime Basil & Mandarin|Cologne|CIT5 GRN3 MUS1|uni|1|0.84|1|ohc|2|118|30ml|Lime zest and peppery basil, crisp and green.|青柠皮和罗勒，清脆又提神。
+hermes-orange-verte|Hermès|Eau d'Orange Verte|EDC|CIT5 GRN2 WOO1 MUS1|uni|1|0.80|1|ohc|2|170|100ml|Orange peel and mint leaves, polished and fresh.|橙皮和薄荷叶，干净利落。
+mm-lemon-trees|Maison Margiela|Replica Under the Lemon Trees|EDT|CIT4 GRN2 AQU1 MUS1|uni|1|0.78|1|ohc|2|195|100ml|Lemon, cardamom and shade on a terrace.|柠檬与小豆蔻，树荫下的露台。
+adp-colonia|Acqua di Parma|Colonia|EDC|CIT5 FLR1 WOO1 MUS1 GRN1|uni|2|0.82|1|ohc|3|275|100ml|Italian citrus and lavender, timeless and sunny.|意式柑橘和薰衣草，永不过时的阳光。
+lelabo-bergamote22|Le Labo|Bergamote 22|EDP|CIT5 MUS2 WOO1 AMB1|uni|2|0.82|1|ohc|3|365|50ml|Bergamot and grapefruit over soft musk.|佛手柑和葡萄柚，落在柔软的麝香上。
+tf-neroli-portofino|Tom Ford|Neroli Portofino|EDP|CIT5 FLR2 AQU1 MUS1 AMB1|uni|2|0.84|1|hce|3|420|50ml|Riviera neroli and lemon, a holiday in a bottle.|里维埃拉的橙花和柠檬，装瓶的假期。
+byredo-sundazed|Byredo|Sundazed|EDP|CIT4 FRU1 MUS2 GOU1|uni|2|0.76|1|hc|3|330|50ml|Mandarin and cotton-candy sunshine.|柑橘和棉花糖般的阳光。
+ea-green-tea|Elizabeth Arden|Green Tea|EDT|GRN3 CIT3 FLR1 MUS1|fem|1|0.74|1|ohc|1|39|100ml|Green tea and lemon, light as a breeze.|绿茶和柠檬，轻得像一阵风。
+tbs-fuji-green-tea|The Body Shop|Fuji Green Tea|EDT|GRN4 CIT2 MUS1|uni|1|0.70|1|ohc|1|45|100ml|Fresh green tea, simple and calming.|清新绿茶，简单又安神。
+diptyque-philosykos|Diptyque|Philosykos|EDT|GRN5 FRU2 WOO3 MUS1|uni|2|0.84|1|oc|2|230|100ml|The whole fig tree: leaf, fruit and wood.|一整棵无花果树：叶、果、木。
+hermes-nil|Hermès|Un Jardin sur le Nil|EDT|GRN4 FRU2 CIT2 AQU1 WOO1|uni|2|0.84|1|ohc|2|200|100ml|Green mango and lotus by the river.|青芒果和莲花，河畔的花园。
+hermes-mediterranee|Hermès|Un Jardin en Méditerranée|EDT|GRN4 FRU1 WOO2 FLR1|uni|1|0.76|1|ohc|2|200|100ml|Fig leaf and oleander in a walled garden.|无花果叶和夹竹桃，围墙里的花园。
+hermes-toit|Hermès|Un Jardin sur le Toit|EDT|GRN4 FRU2 FLR2|uni|1|0.68|1|oc|2|200|100ml|Apples, pears and grass on a Paris rooftop.|巴黎屋顶上的苹果、梨和青草。
+bvlgari-the-vert|Bvlgari|Eau Parfumée au Thé Vert|EDC|GRN4 CIT3 WOO1 MUS1|uni|1|0.78|1|ohc|2|150|100ml|Green tea and bergamot, spa-calm.|绿茶和佛手柑，像在 spa 里放空。
+aesop-tacit|Aesop|Tacit|EDP|CIT4 GRN3 WOO1|uni|1|0.78|1|ohc|2|210|50ml|Yuzu and basil, herbal and clear-headed.|柚子和罗勒，草本又清醒。
+jm-earl-grey|Jo Malone London|Earl Grey & Cucumber|Cologne|GRN3 CIT2 AQU2 MUS1|uni|1|0.72|1|ohc|2|118|30ml|Bergamot tea with cool cucumber.|伯爵茶配一片冰凉黄瓜。
+lartisan-figuier|L'Artisan Parfumeur|Premier Figuier|EDT|GRN4 FRU2 WOO2 GOU1 MUS1|uni|2|0.76|1|oc|3|260|100ml|Milky fig and green leaves, soft and sunny.|奶感无花果和绿叶，柔和明亮。
+lelabo-the-matcha|Le Labo|Thé Matcha 26|EDP|GRN4 WOO3 FRU1 MUS1|uni|2|0.74|1|oc|3|365|50ml|Matcha, fig and cedar, calm and dry.|抹茶、无花果和雪松，安静干爽。
+nautica-voyage|Nautica|Voyage|EDT|AQU4 GRN3 MUS1 WOO1|masc|2|0.74|1|ohc|1|39|100ml|Green apple and sea spray, a budget hero.|青苹果和浪花，平价之光。
+davidoff-cool-water|Davidoff|Cool Water|EDT|AQU5 GRN2 CIT1 AMB1 MUS1|masc|2|0.76|1|ohc|1|65|125ml|Mint and ocean air, the original fresh blue.|薄荷与海风，元祖级清新蓝调。
+kenzo-leau|Kenzo|L'Eau par Kenzo|EDT|AQU4 FLR2 CIT2 MUS1|fem|1|0.74|1|ohc|1|95|100ml|Watery lotus and mint, cool skin on a hot day.|水感莲花和薄荷，热天的一身清凉。
+issey-leau|Issey Miyake|L'Eau d'Issey|EDT|AQU4 FLR3 MUS2|fem|2|0.78|1|ohc|2|130|100ml|A drop of water on a lotus petal.|莲花瓣上的一滴水。
+armani-acqua-di-gio|Giorgio Armani|Acqua di Giò|EDT|AQU5 CIT3 GRN1 FLR1 WOO1 MUS1|masc|2|0.86|1|ohc|2|160|100ml|Sea salt and citrus, endlessly easy.|海盐和柑橘，怎么喷都不出错。
+bvlgari-aqva|Bvlgari|Aqva Pour Homme|EDT|AQU5 GRN2 WOO1 MUS1|masc|2|0.76|1|ohc|2|140|100ml|Seaweed and mandarin, deep blue and calm.|海藻和柑橘，深蓝而平静。
+mm-beach-walk|Maison Margiela|Replica Beach Walk|EDT|AQU3 CIT3 MUS2 GOU1 FLR1|uni|2|0.80|1|hc|2|195|100ml|Sun cream, coconut milk and warm skin.|防晒霜、椰奶和晒暖的皮肤。
+mm-sailing-day|Maison Margiela|Replica Sailing Day|EDT|AQU5 CIT1 MUS2 GRN1|uni|2|0.72|1|ohc|2|195|100ml|Salt wind and rope on an early boat.|清晨船上的咸风和缆绳。
+jm-wood-sage|Jo Malone London|Wood Sage & Sea Salt|Cologne|AQU4 GRN2 WOO2 MUS2|uni|1|0.86|1|ohc|2|118|30ml|Windswept cliffs, sea salt and sage.|海风吹过的悬崖，海盐和鼠尾草。
+hermes-lagune|Hermès|Un Jardin sur la Lagune|EDT|AQU3 FLR2 GRN1 MUS2 WOO1|uni|1|0.70|1|ohc|2|200|100ml|Salt air drifting through a lagoon garden.|潟湖花园里飘来的海风。
+adp-mirto|Acqua di Parma|Blu Mediterraneo Mirto di Panarea|EDT|AQU3 GRN3 CIT2 WOO1|uni|2|0.76|1|ohc|2|210|75ml|Myrtle, basil and island sea air.|香桃木、罗勒和小岛海风。
+creed-smw|Creed|Silver Mountain Water|EDP|AQU4 CIT2 GRN2 MUS2|uni|2|0.78|1|ohc|3|480|100ml|Snowmelt, green tea and blackcurrant.|雪山融水、绿茶和黑醋栗。
+mfk-aqua-universalis|Maison Francis Kurkdjian|Aqua Universalis|EDT|CIT3 MUS3 FLR2 AQU2|uni|1|0.78|1|ohc|3|330|70ml|Fresh laundry and bergamot, impossibly clean.|新洗衣物和佛手柑，干净到极致。
+creed-viw|Creed|Virgin Island Water|EDP|CIT3 AQU3 GOU1 AMB1|uni|2|0.74|1|hc|3|480|100ml|Lime, coconut and a white-sand beach.|青柠、椰子和白沙滩。
+lanvin-eclat|Lanvin|Éclat d'Arpège|EDP|FLR3 FRU2 MUS2 GRN1|fem|2|0.74|1|oc|1|69|100ml|Lilac and green tea, soft and pretty.|丁香和绿茶，温柔好看。
+cacharel-anais|Cacharel|Anaïs Anaïs|EDT|FLR4 GRN1 MUS2|fem|2|0.62|1|oc|1|69|100ml|White lily and soft greens, gentle and romantic.|白百合和嫩绿，温柔又浪漫。
+vs-bombshell|Victoria's Secret|Bombshell|EDP|FRU3 FLR3 MUS1|fem|2|0.72|1|ce|1|90|50ml|Passion fruit and peony, bright and flirty.|百香果和牡丹，明亮又俏皮。
+mj-daisy|Marc Jacobs|Daisy|EDT|FLR3 FRU3 GRN1 MUS2|fem|2|0.80|1|oc|2|140|100ml|Strawberry and violet leaf, sweet and fresh.|草莓和紫罗兰叶，清甜可爱。
+chanel-chance-fraiche|Chanel|Chance Eau Fraîche|EDT|CIT3 FLR3 GRN2 WOO1 MUS1|fem|2|0.82|1|ohc|2|205|100ml|Citron and jasmine with a green twist.|香橼和茉莉，带一点青绿。
+jm-wild-bluebell|Jo Malone London|Wild Bluebell|Cologne|FLR4 GRN2 AQU1 MUS1|fem|1|0.80|1|oc|2|118|30ml|Dewy bluebells in a shady wood.|林荫下带露水的风铃草。
+jm-pear-freesia|Jo Malone London|English Pear & Freesia|Cologne|FRU4 FLR3 WOO1 MUS1|uni|2|0.86|1|oc|2|118|30ml|Ripe pear and white freesia, autumn-crisp.|熟梨和白色小苍兰，秋天般清爽。
+jm-nectarine|Jo Malone London|Nectarine Blossom & Honey|Cologne|FRU3 FLR3 GOU1|uni|2|0.76|1|oc|2|118|30ml|Nectarine and acacia honey at a morning market.|油桃和槐花蜜，像清晨的市集。
+dior-miss-dior-bb|Dior|Miss Dior Blooming Bouquet|EDT|FLR4 FRU2 MUS2 CIT1|fem|2|0.82|1|oc|2|190|100ml|Peony and soft musk, a bouquet in sunlight.|牡丹和柔软麝香，阳光下的花束。
+gucci-bloom|Gucci|Bloom|EDP|FLR5 GRN2 MUS1|fem|2|0.78|0|oce|2|185|100ml|Tuberose and jasmine, a garden in full bloom.|晚香玉和茉莉，满园盛开。
+mfk-aqua-celestia|Maison Francis Kurkdjian|Aqua Celestia|EDT|CIT3 FLR3 GRN2 MUS2|uni|1|0.76|1|ohc|3|330|70ml|Lime, mimosa and blackcurrant leaf.|青柠、含羞草和黑醋栗叶。
+diptyque-do-son|Diptyque|Do Son|EDP|FLR5 AQU1 MUS1 GRN1|fem|2|0.78|0|oce|3|265|75ml|Tuberose carried on a sea breeze.|海风送来的晚香玉。
+penhaligons-luna|Penhaligon's|Luna|EDT|FLR3 CIT2 GRN2 WOO1 MUS1|fem|2|0.72|1|oc|3|290|100ml|Orange, rose and juniper under the moon.|月光下的橙子、玫瑰和杜松。
+malle-carnal-flower|Frédéric Malle|Carnal Flower|EDP|FLR5 GRN2 MUS1 CIT1|fem|3|0.74|0|e|3|520|100ml|The most realistic tuberose, green and lush.|最真实的晚香玉，翠绿浓郁。
+ea-red-door|Elizabeth Arden|Red Door|EDT|FLR5 AMB2 FRU1 WOO1|fem|3|0.60|0|e|1|59|100ml|Red roses and honeyed spice, unapologetically classic.|红玫瑰和蜜意香料，毫不掩饰的经典。
+cacharel-amor-amor|Cacharel|Amor Amor|EDT|FRU4 FLR3 GOU1|fem|2|0.70|1|ce|1|69|100ml|Cassis and rose, playful and juicy.|黑醋栗和玫瑰，俏皮多汁。
+lancome-tresor|Lancôme|Trésor|EDP|FLR4 FRU2 AMB2 MUS1|fem|2|0.70|0|e|2|135|100ml|Rose and apricot wrapped in powder.|玫瑰和杏子，包裹在粉感里。
+chloe-edp|Chloé|Eau de Parfum|EDP|FLR5 FRU1 MUS2|fem|2|0.80|0|oc|2|175|75ml|Fresh rose and peony, polished and pretty.|清新玫瑰和牡丹，精致漂亮。
+dior-miss-dior|Dior|Miss Dior|EDP|FLR5 FRU2 MUS1 WOO1|fem|2|0.82|0|oce|2|210|100ml|A rose-and-lily bouquet tied with a ribbon.|系着丝带的玫瑰百合花束。
+dior-jadore|Dior|J'adore|EDP|FLR5 FRU2 MUS1|fem|2|0.84|0|oce|2|215|100ml|Golden jasmine and ylang, radiant and sure.|金色茉莉和依兰，自信光彩。
+jm-red-roses|Jo Malone London|Red Roses|Cologne|FLR5 GRN1 CIT1|fem|1|0.74|1|oc|2|118|30ml|Seven roses, freshly cut.|七种玫瑰，刚刚剪下。
+lancome-idole|Lancôme|Idôle|EDP|FLR4 MUS2 FRU1 WOO1|fem|2|0.76|0|oc|2|170|75ml|Clean rose and jasmine, bright and modern.|干净玫瑰和茉莉，明亮现代。
+ysl-libre|Yves Saint Laurent|Libre|EDP|FLR4 AMB2 GOU2 MUS1|fem|3|0.80|0|e|2|200|90ml|Lavender and orange blossom on warm vanilla.|薰衣草和橙花，落在温暖的香草上。
+diptyque-eau-rose|Diptyque|Eau Rose|EDT|FLR5 FRU1 GRN1 MUS1|fem|1|0.76|1|oc|2|200|100ml|Rose petals with lychee and blackcurrant.|玫瑰花瓣配荔枝和黑醋栗。
+vr-flowerbomb|Viktor&Rolf|Flowerbomb|EDP|FLR4 GOU3 FRU1 AMB1|fem|3|0.82|0|e|2|205|100ml|Sweet florals and candy floss, a happy explosion.|甜蜜花香和棉花糖的快乐爆炸。
+byredo-rose-nml|Byredo|Rose of No Man's Land|EDP|FLR4 AMB2 FRU1 WOO1|uni|2|0.74|0|oce|3|330|50ml|Turkish rose with pink pepper.|土耳其玫瑰配粉红胡椒。
+lelabo-rose31|Le Labo|Rose 31|EDP|FLR3 AMB3 WOO3 MUS1|uni|3|0.76|0|e|3|365|50ml|Rose dusted with cumin and cedar.|撒上孜然和雪松的玫瑰。
+tf-rose-prick|Tom Ford|Rose Prick|EDP|FLR5 AMB2 WOO1|uni|2|0.72|0|e|3|490|50ml|Thorny rose with Sichuan pepper.|带刺的玫瑰，加一点花椒。
+malle-portrait|Frédéric Malle|Portrait of a Lady|EDP|FLR5 AMB3 WOO3 SMK1 FRU1|uni|3|0.82|0|e|3|540|100ml|Dark rose, patchouli and incense.|深色玫瑰、广藿香和焚香。
+bbw-warm-vanilla-sugar|Bath & Body Works|Warm Vanilla Sugar|Mist|GOU4 MUS1 FLR1|fem|1|0.70|0|c|1|33|236ml|Vanilla sugar and soft orchid, cosy and cheap.|香草糖和柔和兰花，舒服又平价。
+ag-cloud|Ariana Grande|Cloud|EDP|GOU4 FRU1 MUS2 FLR1|fem|2|0.80|0|ce|1|85|100ml|Whipped cream, coconut and pear.|奶油、椰子和梨。
+sdj-cheirosa-62|Sol de Janeiro|Cheirosa 62|Mist|GOU4 FRU1 AMB1 MUS2|uni|2|0.82|0|c|1|46|240ml|Pistachio and salted caramel, beach-bag sweet.|开心果和咸焦糖，沙滩包里的甜。
+juicy-viva|Juicy Couture|Viva la Juicy|EDP|GOU3 FRU3 FLR2|fem|2|0.72|0|ce|1|90|100ml|Wild berries, caramel and vanilla.|野莓、焦糖和香草。
+lancome-lveb|Lancôme|La Vie Est Belle|EDP|GOU4 FRU2 FLR2 MUS1|fem|3|0.84|0|e|2|175|75ml|Praline and iris, sweet and joyful.|果仁糖和鸢尾，甜美快乐。
+ysl-black-opium|Yves Saint Laurent|Black Opium|EDP|GOU4 AMB2 FLR2 FRU1|fem|3|0.84|0|e|2|195|90ml|Black coffee and vanilla after dark.|夜里的黑咖啡和香草。
+prada-candy|Prada|Candy|EDP|GOU5 AMB2 MUS2|fem|2|0.76|0|ce|2|165|80ml|Caramel and benzoin, a grown-up sweet.|焦糖和安息香，成熟的甜。
+mugler-angel|Mugler|Angel|EDP|GOU5 FRU2 AMB2 WOO1|fem|3|0.66|0|e|2|175|100ml|Chocolate, praline and patchouli: the original gourmand.|巧克力、果仁糖和广藿香，美食调鼻祖。
+kayali-vanilla-28|Kayali|Vanilla 28|EDP|GOU5 AMB2 FLR1|fem|2|0.78|0|ce|2|160|50ml|Vanilla orchid, brown sugar and tonka.|香草兰、红糖和零陵香豆。
+mm-coffee-break|Maison Margiela|Replica Coffee Break|EDT|GOU4 AMB1 FLR1 MUS1|uni|2|0.70|0|oc|2|195|100ml|Milky coffee and lavender on a lazy afternoon.|慵懒午后的奶咖和薰衣草。
+diptyque-eau-duelle|Diptyque|Eau Duelle|EDT|GOU4 AMB3 WOO1 SMK1|uni|2|0.76|0|oce|2|200|100ml|Vanilla with tea and black pepper, not too sweet.|香草配茶和黑胡椒，甜而不腻。
+tf-lost-cherry|Tom Ford|Lost Cherry|EDP|FRU4 GOU3 AMB2 FLR1|uni|3|0.76|0|e|3|490|50ml|Black cherry and almond liqueur.|黑樱桃和杏仁利口酒。
+kilian-ldbs|Kilian|Love, Don't Be Shy|EDP|GOU5 FLR2 AMB1 MUS1|fem|3|0.80|0|e|3|450|50ml|Marshmallow and orange blossom.|棉花糖和橙花。
+jm-myrrh-tonka|Jo Malone London|Myrrh & Tonka|Cologne Intense|GOU3 AMB4 WOO1|uni|2|0.76|0|e|3|275|100ml|Warm tonka and smoky myrrh by the fire.|炉火边的零陵香豆和没药。
+tbs-white-musk|The Body Shop|White Musk|EDT|MUS4 FLR2 GOU1|fem|1|0.72|1|oc|1|45|60ml|Soft white musk and lily, a skin-close classic.|柔和白麝香和百合，贴肤经典。
+kiehls-original-musk|Kiehl's|Original Musk|EDT|MUS4 FLR2 AMB1|uni|2|0.70|0|oce|1|95|50ml|Warm musk with orange blossom, a cult since 1921.|温暖麝香配橙花，1921 年至今的口碑。
+philosophy-pure-grace|philosophy|Pure Grace|EDT|MUS4 AQU1 FLR1 CIT1|fem|1|0.70|1|oc|1|89|60ml|Soap and water, freshly showered.|肥皂和清水，刚洗完澡的味道。
+glossier-you|Glossier|You|EDP|MUS4 AMB2 WOO1|uni|1|0.76|1|oc|2|110|50ml|Iris and ambrette that smell like your skin, only better.|鸢尾和黄葵，像你的皮肤，但更好闻。
+nr-for-her|Narciso Rodriguez|For Her|EDT|MUS5 FLR2 WOO1 AMB1|fem|2|0.82|0|oce|2|165|100ml|The definitive musk: sensual and clean.|标杆级麝香：干净又性感。
+mm-lazy-sunday|Maison Margiela|Replica Lazy Sunday Morning|EDT|MUS5 FLR2 FRU1|uni|1|0.80|1|oc|2|195|100ml|White sheets and lily of the valley.|白色床单和铃兰。
+mm-bubble-bath|Maison Margiela|Replica Bubble Bath|EDT|MUS4 FLR2 AQU2 GOU1|uni|1|0.76|1|oc|2|195|100ml|Soap bubbles, rose and coconut milk.|肥皂泡、玫瑰和椰奶。
+jhag-not-a-perfume|Juliette Has a Gun|Not a Perfume|EDP|MUS4 WOO3|uni|1|0.70|1|oc|2|140|100ml|A single molecule of clean, woody musk.|一个分子的干净木质麝香。
+prada-infusion-iris|Prada|Infusion d'Iris|EDP|FLR3 MUS3 WOO2 CIT1|uni|1|0.78|1|oc|2|185|100ml|Powdery iris and mandarin, elegant and quiet.|粉感鸢尾和柑橘，优雅安静。
+prada-lhomme|Prada|L'Homme|EDT|FLR2 WOO3 MUS3 AMB1|masc|2|0.80|1|oce|2|160|100ml|Iris, neroli and ambergris: a clean shirt.|鸢尾、橙花和龙涎，一件干净的衬衫。
+lelabo-another13|Le Labo|Another 13|EDP|MUS5 WOO2 AMB1|uni|2|0.82|1|oce|3|365|50ml|Ambrette and moss, skin-close and addictive.|黄葵和苔藓，贴肤又上瘾。
+byredo-blanche|Byredo|Blanche|EDP|MUS4 FLR3 CIT1|fem|1|0.74|1|oc|3|330|50ml|Freshly washed white linen.|刚洗好的白色亚麻。
+diptyque-fleur-de-peau|Diptyque|Fleur de Peau|EDP|MUS5 FLR2 WOO1 AMB1|uni|2|0.76|0|oce|3|265|75ml|Iris and musk, soft as skin.|鸢尾与麝香，柔软如肌肤。
+byredo-mojave-ghost|Byredo|Mojave Ghost|EDP|MUS3 FLR3 WOO2 FRU1|uni|2|0.80|1|oc|3|330|50ml|Sapodilla and violet in the desert.|沙漠里的人心果和紫罗兰。
+mb-explorer|Montblanc|Explorer|EDP|WOO3 CIT2 AMB2 SMK1|masc|2|0.74|0|oce|1|95|100ml|Vetiver and bergamot, an everyday adventure.|香根草和佛手柑，日常的冒险。
+boss-bottled|Hugo Boss|Boss Bottled|EDT|WOO3 FRU2 AMB2 MUS1|masc|2|0.72|0|oe|1|95|100ml|Apple, cinnamon and sandalwood, smart and warm.|苹果、肉桂和檀香，体面又温暖。
+em-molecule-01|Escentric Molecules|Molecule 01|EDT|WOO5 MUS2|uni|1|0.72|1|oc|2|150|100ml|Pure velvety cedar that hums on skin.|纯粹丝绒般的雪松，在皮肤上低吟。
+diptyque-tam-dao|Diptyque|Tam Dao|EDT|WOO5 AMB1 MUS1|uni|1|0.78|1|oc|2|215|100ml|Creamy sandalwood and cypress.|奶油般的檀香和柏木。
+hermes-terre|Hermès|Terre d'Hermès|EDT|WOO4 CIT3 GRN1 SMK1|masc|2|0.86|1|oce|2|180|100ml|Orange and vetiver on warm earth.|温热土壤上的橙子和香根草。
+hermes-voyage|Hermès|Voyage d'Hermès|EDT|WOO3 CIT2 MUS2 GRN1 AMB1|uni|2|0.76|1|ohc|2|190|100ml|Cardamom, tea and dry woods for wandering.|小豆蔻、茶和干燥木质，适合远行。
+chanel-bleu|Chanel|Bleu de Chanel|EDP|WOO3 CIT3 AMB2 SMK1 MUS1|masc|2|0.88|1|oce|2|210|100ml|Grapefruit, incense and cedar, sharp and sure.|葡萄柚、焚香和雪松，利落笃定。
+dior-sauvage|Dior|Sauvage|EDT|CIT3 AMB3 WOO2 MUS2 AQU1|masc|3|0.84|1|ce|2|180|100ml|Peppery bergamot and ambroxan, loud and clean.|胡椒佛手柑和龙涎醚，响亮又干净。
+byredo-gypsy-water|Byredo|Gypsy Water|EDP|WOO3 CIT2 AMB1 GOU1 GRN1 MUS1|uni|2|0.80|1|oc|3|330|50ml|Pine needles, lemon and vanilla by a campfire.|松针、柠檬和香草，篝火旁的味道。
+lelabo-santal33|Le Labo|Santal 33|EDP|WOO5 SMK2 AMB2 FLR1 MUS1|uni|3|0.84|0|ce|3|365|50ml|Leathery sandalwood and cardamom.|皮革感檀香和小豆蔻。
+tf-oud-wood|Tom Ford|Oud Wood|EDP|WOO5 AMB2 SMK1 GOU1|uni|2|0.86|0|oe|3|490|50ml|Smooth oud, sandalwood and tonka.|顺滑乌木、檀香和零陵香豆。
+chanel-sycomore|Chanel|Sycomore|EDP|WOO5 SMK2 GRN1|uni|2|0.78|1|oce|3|395|75ml|Smoky vetiver and cypress, quietly grand.|烟熏香根草和柏木，低调而大气。
+lelabo-the-noir29|Le Labo|Thé Noir 29|EDP|WOO4 FRU2 SMK2 GRN1|uni|2|0.76|0|oce|3|365|50ml|Black tea, fig and tobacco leaf.|红茶、无花果和烟叶。
+ck-obsession-men|Calvin Klein|Obsession for Men|EDT|AMB5 WOO2 GOU1|masc|3|0.62|0|e|1|69|125ml|Warm spice and amber, an 80s icon.|温暖香料和琥珀，80 年代的经典。
+lattafa-khamrah|Lattafa|Khamrah|EDP|GOU4 AMB4 FRU1 WOO1|uni|3|0.82|0|e|1|65|100ml|Dates, cinnamon and praline, rich for the price.|椰枣、肉桂和果仁糖，价格友好。
+afnan-9pm|Afnan|9pm|EDP|AMB4 GOU3 FRU1 CIT1|masc|3|0.76|0|e|1|59|100ml|Apple, cinnamon and vanilla for nights out.|苹果、肉桂和香草，夜晚出门的选择。
+lattafa-asad|Lattafa|Asad|EDP|AMB4 SMK2 WOO2 GOU1|masc|3|0.74|0|e|1|49|100ml|Black pepper, tobacco and amber, bold and cheap.|黑胡椒、烟草和琥珀，大胆又平价。
+vr-spicebomb|Viktor&Rolf|Spicebomb|EDT|AMB5 SMK2 WOO2 GOU1|masc|3|0.76|0|e|2|170|90ml|Chilli, tobacco and leather in a grenade.|辣椒、烟草和皮革装进手榴弹。
+mm-jazz-club|Maison Margiela|Replica Jazz Club|EDT|AMB3 GOU3 SMK2 WOO2|uni|2|0.80|0|e|2|195|100ml|Rum, tobacco leaf and vanilla in a dim bar.|昏暗酒吧里的朗姆、烟叶和香草。
+guerlain-shalimar|Guerlain|Shalimar|EDP|AMB5 GOU3 CIT2 FLR1 SMK1|fem|3|0.70|0|e|2|185|90ml|Bergamot and smoky vanilla, a legend since 1925.|佛手柑和烟熏香草，1925 年的传奇。
+hermes-merveilles|Hermès|Eau des Merveilles|EDT|AMB4 WOO3 CIT1|fem|2|0.72|0|oce|2|190|100ml|Orange peel and ambergris, sparkling warmth.|橙皮和龙涎香，闪着光的温暖。
+dior-hypnotic-poison|Dior|Hypnotic Poison|EDT|GOU4 AMB3 FLR1|fem|3|0.78|0|e|2|185|100ml|Almond, vanilla and jasmine, deliciously dark.|杏仁、香草和茉莉，美味又暗黑。
+ah-amber-oud-gold|Al Haramain|Amber Oud Gold Edition|EDP|AMB4 GOU3 FRU2 MUS1|uni|3|0.74|0|e|2|120|120ml|Melon, amber and vanilla, loud and sunny.|蜜瓜、琥珀和香草，响亮又明媚。
+mfk-br540|Maison Francis Kurkdjian|Baccarat Rouge 540|EDP|AMB4 WOO3 GOU2 FLR1|uni|3|0.86|0|oce|3|480|70ml|Saffron, amberwood and burnt sugar.|藏红花、琥珀木和焦糖。
+tf-black-orchid|Tom Ford|Black Orchid|EDP|AMB4 FLR2 GOU2 WOO2 SMK1 FRU1|uni|3|0.76|0|e|3|260|100ml|Dark truffle, black orchid and patchouli.|黑松露、黑兰花和广藿香。
+kilian-angels-share|Kilian|Angels' Share|EDP|GOU4 AMB4 WOO2 FRU1|uni|3|0.84|0|e|3|450|50ml|Cognac, cinnamon and oak.|干邑、肉桂和橡木。
+lutens-ambre-sultan|Serge Lutens|Ambre Sultan|EDP|AMB5 WOO2 GRN1 SMK1|uni|2|0.72|0|e|3|280|50ml|Resinous amber with oregano and bay leaf.|树脂琥珀配牛至和月桂。
+zara-vibrant-leather|Zara|Vibrant Leather|EDP|SMK4 AMB2 WOO2 FRU1|masc|2|0.70|0|e|1|39|100ml|Cardamom and soft leather for very little.|小豆蔻和柔软皮革，小钱就能拥有。
+armaf-cdnim|Armaf|Club de Nuit Intense Man|EDT|SMK3 FRU2 WOO3 CIT2|masc|3|0.76|0|e|1|79|105ml|Smoky birch and pineapple, a big-value bruiser.|烟熏桦木和菠萝，物超所值。
+mm-by-the-fireplace|Maison Margiela|Replica By the Fireplace|EDT|SMK4 WOO3 GOU2 AMB2|uni|2|0.82|0|e|2|195|100ml|Chestnuts, clove and woodsmoke in winter.|冬天的栗子、丁香和柴火烟。
+tf-ombre-leather|Tom Ford|Ombré Leather|EDP|SMK5 WOO2 FLR1 AMB1|uni|3|0.80|0|e|2|230|100ml|Soft black leather and jasmine.|柔软黑皮革和茉莉。
+aesop-hwyl|Aesop|Hwyl|EDP|SMK3 WOO4 GRN2|uni|2|0.74|0|oce|2|220|50ml|Smoke, thyme and cypress in a Japanese forest.|日本森林里的烟、百里香和柏木。
+dior-fahrenheit|Dior|Fahrenheit|EDT|SMK3 WOO3 FLR2 AMB1|masc|3|0.74|0|e|2|165|100ml|Violet leaf and leather with a petrol shine.|紫罗兰叶和皮革，带一点汽油般的光泽。
+tf-tuscan-leather|Tom Ford|Tuscan Leather|EDP|SMK5 FRU2 WOO2 AMB1|uni|3|0.78|0|e|3|490|50ml|Raspberry and raw leather, unmistakable.|覆盆子和生皮革，辨识度极高。
+lelabo-patchouli24|Le Labo|Patchouli 24|EDP|SMK5 GOU2 WOO2|uni|3|0.68|0|e|3|365|50ml|Birch tar and vanilla, a campfire in a library.|白桦焦油和香草，图书馆里的篝火。
+creed-aventus|Creed|Aventus|EDP|FRU3 SMK2 WOO3 CIT2 MUS1|masc|3|0.86|0|oce|3|520|100ml|Smoky pineapple and birch, the boardroom classic.|烟熏菠萝和桦木，会议室里的经典。

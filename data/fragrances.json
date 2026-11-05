@@ -1,0 +1,3940 @@
+[
+ {
+  "id": "4711-original",
+  "brand": "4711",
+  "name": "Echt Kölnisch Wasser",
+  "concentration": "EDC",
+  "accords": {
+   "CIT": 5,
+   "GRN": 1,
+   "FLR": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.7,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 35,
+  "price_note": "~S$35 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "The original cologne: a splash of lemon and neroli.",
+  "blurb_zh": "最经典的古龙水，一抹柠檬和橙花。"
+ },
+ {
+  "id": "ck-one",
+  "brand": "Calvin Klein",
+  "name": "CK One",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 3,
+   "GRN": 2,
+   "AQU": 1,
+   "FLR": 1,
+   "MUS": 2
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 85,
+  "price_note": "~S$85 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Clean tea and citrus, the shared-bathroom classic.",
+  "blurb_zh": "清爽茶感和柑橘，经典中性香。"
+ },
+ {
+  "id": "lacoste-blanc",
+  "brand": "Lacoste",
+  "name": "L.12.12 Blanc",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 3,
+   "GRN": 1,
+   "AQU": 1,
+   "MUS": 2,
+   "WOO": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 89,
+  "price_note": "~S$89 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Grapefruit and fresh cotton, like a white polo shirt.",
+  "blurb_zh": "葡萄柚和干净棉布，像一件白色 Polo 衫。"
+ },
+ {
+  "id": "versace-ph",
+  "brand": "Versace",
+  "name": "Pour Homme",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 3,
+   "AQU": 2,
+   "GRN": 1,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 95,
+  "price_note": "~S$95 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Bright lemon and sea air, easy all day.",
+  "blurb_zh": "明亮柠檬加海风，全天都轻松。"
+ },
+ {
+  "id": "clinique-happy",
+  "brand": "Clinique",
+  "name": "Happy",
+  "concentration": "EDP",
+  "accords": {
+   "CIT": 4,
+   "FRU": 2,
+   "FLR": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 89,
+  "price_note": "~S$89 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Mandarin and grapefruit in a good mood.",
+  "blurb_zh": "柑橘和葡萄柚，一闻就开心。"
+ },
+ {
+  "id": "dg-light-blue",
+  "brand": "Dolce&Gabbana",
+  "name": "Light Blue",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 4,
+   "FRU": 2,
+   "AQU": 1,
+   "WOO": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.85,
+  "heat_ok": true,
+  "occasions": [
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 155,
+  "price_note": "~S$155 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Sicilian lemon and green apple on a hot day.",
+  "blurb_zh": "西西里柠檬和青苹果，夏天的味道。"
+ },
+ {
+  "id": "jm-lime-basil",
+  "brand": "Jo Malone London",
+  "name": "Lime Basil & Mandarin",
+  "concentration": "Cologne",
+  "accords": {
+   "CIT": 5,
+   "GRN": 3,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.84,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 118,
+  "price_note": "~S$118 / 30ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Lime zest and peppery basil, crisp and green.",
+  "blurb_zh": "青柠皮和罗勒，清脆又提神。"
+ },
+ {
+  "id": "hermes-orange-verte",
+  "brand": "Hermès",
+  "name": "Eau d'Orange Verte",
+  "concentration": "EDC",
+  "accords": {
+   "CIT": 5,
+   "GRN": 2,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 170,
+  "price_note": "~S$170 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Orange peel and mint leaves, polished and fresh.",
+  "blurb_zh": "橙皮和薄荷叶，干净利落。"
+ },
+ {
+  "id": "mm-lemon-trees",
+  "brand": "Maison Margiela",
+  "name": "Replica Under the Lemon Trees",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 4,
+   "GRN": 2,
+   "AQU": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Lemon, cardamom and shade on a terrace.",
+  "blurb_zh": "柠檬与小豆蔻，树荫下的露台。"
+ },
+ {
+  "id": "adp-colonia",
+  "brand": "Acqua di Parma",
+  "name": "Colonia",
+  "concentration": "EDC",
+  "accords": {
+   "CIT": 5,
+   "FLR": 1,
+   "WOO": 1,
+   "MUS": 1,
+   "GRN": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 275,
+  "price_note": "~S$275 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Italian citrus and lavender, timeless and sunny.",
+  "blurb_zh": "意式柑橘和薰衣草，永不过时的阳光。"
+ },
+ {
+  "id": "lelabo-bergamote22",
+  "brand": "Le Labo",
+  "name": "Bergamote 22",
+  "concentration": "EDP",
+  "accords": {
+   "CIT": 5,
+   "MUS": 2,
+   "WOO": 1,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 365,
+  "price_note": "~S$365 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Bergamot and grapefruit over soft musk.",
+  "blurb_zh": "佛手柑和葡萄柚，落在柔软的麝香上。"
+ },
+ {
+  "id": "tf-neroli-portofino",
+  "brand": "Tom Ford",
+  "name": "Neroli Portofino",
+  "concentration": "EDP",
+  "accords": {
+   "CIT": 5,
+   "FLR": 2,
+   "AQU": 1,
+   "MUS": 1,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.84,
+  "heat_ok": true,
+  "occasions": [
+   "heat",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 420,
+  "price_note": "~S$420 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Riviera neroli and lemon, a holiday in a bottle.",
+  "blurb_zh": "里维埃拉的橙花和柠檬，装瓶的假期。"
+ },
+ {
+  "id": "byredo-sundazed",
+  "brand": "Byredo",
+  "name": "Sundazed",
+  "concentration": "EDP",
+  "accords": {
+   "CIT": 4,
+   "FRU": 1,
+   "MUS": 2,
+   "GOU": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "heat",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 330,
+  "price_note": "~S$330 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Mandarin and cotton-candy sunshine.",
+  "blurb_zh": "柑橘和棉花糖般的阳光。"
+ },
+ {
+  "id": "ea-green-tea",
+  "brand": "Elizabeth Arden",
+  "name": "Green Tea",
+  "concentration": "EDT",
+  "accords": {
+   "GRN": 3,
+   "CIT": 3,
+   "FLR": 1,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 39,
+  "price_note": "~S$39 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Green tea and lemon, light as a breeze.",
+  "blurb_zh": "绿茶和柠檬，轻得像一阵风。"
+ },
+ {
+  "id": "tbs-fuji-green-tea",
+  "brand": "The Body Shop",
+  "name": "Fuji Green Tea",
+  "concentration": "EDT",
+  "accords": {
+   "GRN": 4,
+   "CIT": 2,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.7,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 45,
+  "price_note": "~S$45 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Fresh green tea, simple and calming.",
+  "blurb_zh": "清新绿茶，简单又安神。"
+ },
+ {
+  "id": "diptyque-philosykos",
+  "brand": "Diptyque",
+  "name": "Philosykos",
+  "concentration": "EDT",
+  "accords": {
+   "GRN": 5,
+   "FRU": 2,
+   "WOO": 3,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.84,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 230,
+  "price_note": "~S$230 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "The whole fig tree: leaf, fruit and wood.",
+  "blurb_zh": "一整棵无花果树：叶、果、木。"
+ },
+ {
+  "id": "hermes-nil",
+  "brand": "Hermès",
+  "name": "Un Jardin sur le Nil",
+  "concentration": "EDT",
+  "accords": {
+   "GRN": 4,
+   "FRU": 2,
+   "CIT": 2,
+   "AQU": 1,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.84,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 200,
+  "price_note": "~S$200 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Green mango and lotus by the river.",
+  "blurb_zh": "青芒果和莲花，河畔的花园。"
+ },
+ {
+  "id": "hermes-mediterranee",
+  "brand": "Hermès",
+  "name": "Un Jardin en Méditerranée",
+  "concentration": "EDT",
+  "accords": {
+   "GRN": 4,
+   "FRU": 1,
+   "WOO": 2,
+   "FLR": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 200,
+  "price_note": "~S$200 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Fig leaf and oleander in a walled garden.",
+  "blurb_zh": "无花果叶和夹竹桃，围墙里的花园。"
+ },
+ {
+  "id": "hermes-toit",
+  "brand": "Hermès",
+  "name": "Un Jardin sur le Toit",
+  "concentration": "EDT",
+  "accords": {
+   "GRN": 4,
+   "FRU": 2,
+   "FLR": 2
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.68,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 200,
+  "price_note": "~S$200 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Apples, pears and grass on a Paris rooftop.",
+  "blurb_zh": "巴黎屋顶上的苹果、梨和青草。"
+ },
+ {
+  "id": "bvlgari-the-vert",
+  "brand": "Bvlgari",
+  "name": "Eau Parfumée au Thé Vert",
+  "concentration": "EDC",
+  "accords": {
+   "GRN": 4,
+   "CIT": 3,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 150,
+  "price_note": "~S$150 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Green tea and bergamot, spa-calm.",
+  "blurb_zh": "绿茶和佛手柑，像在 spa 里放空。"
+ },
+ {
+  "id": "aesop-tacit",
+  "brand": "Aesop",
+  "name": "Tacit",
+  "concentration": "EDP",
+  "accords": {
+   "CIT": 4,
+   "GRN": 3,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 210,
+  "price_note": "~S$210 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Yuzu and basil, herbal and clear-headed.",
+  "blurb_zh": "柚子和罗勒，草本又清醒。"
+ },
+ {
+  "id": "jm-earl-grey",
+  "brand": "Jo Malone London",
+  "name": "Earl Grey & Cucumber",
+  "concentration": "Cologne",
+  "accords": {
+   "GRN": 3,
+   "CIT": 2,
+   "AQU": 2,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.72,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 118,
+  "price_note": "~S$118 / 30ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Bergamot tea with cool cucumber.",
+  "blurb_zh": "伯爵茶配一片冰凉黄瓜。"
+ },
+ {
+  "id": "lartisan-figuier",
+  "brand": "L'Artisan Parfumeur",
+  "name": "Premier Figuier",
+  "concentration": "EDT",
+  "accords": {
+   "GRN": 4,
+   "FRU": 2,
+   "WOO": 2,
+   "GOU": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 260,
+  "price_note": "~S$260 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Milky fig and green leaves, soft and sunny.",
+  "blurb_zh": "奶感无花果和绿叶，柔和明亮。"
+ },
+ {
+  "id": "lelabo-the-matcha",
+  "brand": "Le Labo",
+  "name": "Thé Matcha 26",
+  "concentration": "EDP",
+  "accords": {
+   "GRN": 4,
+   "WOO": 3,
+   "FRU": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 365,
+  "price_note": "~S$365 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Matcha, fig and cedar, calm and dry.",
+  "blurb_zh": "抹茶、无花果和雪松，安静干爽。"
+ },
+ {
+  "id": "nautica-voyage",
+  "brand": "Nautica",
+  "name": "Voyage",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 4,
+   "GRN": 3,
+   "MUS": 1,
+   "WOO": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 39,
+  "price_note": "~S$39 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Green apple and sea spray, a budget hero.",
+  "blurb_zh": "青苹果和浪花，平价之光。"
+ },
+ {
+  "id": "davidoff-cool-water",
+  "brand": "Davidoff",
+  "name": "Cool Water",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 5,
+   "GRN": 2,
+   "CIT": 1,
+   "AMB": 1,
+   "MUS": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 65,
+  "price_note": "~S$65 / 125ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Mint and ocean air, the original fresh blue.",
+  "blurb_zh": "薄荷与海风，元祖级清新蓝调。"
+ },
+ {
+  "id": "kenzo-leau",
+  "brand": "Kenzo",
+  "name": "L'Eau par Kenzo",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 4,
+   "FLR": 2,
+   "CIT": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 95,
+  "price_note": "~S$95 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Watery lotus and mint, cool skin on a hot day.",
+  "blurb_zh": "水感莲花和薄荷，热天的一身清凉。"
+ },
+ {
+  "id": "issey-leau",
+  "brand": "Issey Miyake",
+  "name": "L'Eau d'Issey",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 4,
+   "FLR": 3,
+   "MUS": 2
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 130,
+  "price_note": "~S$130 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "A drop of water on a lotus petal.",
+  "blurb_zh": "莲花瓣上的一滴水。"
+ },
+ {
+  "id": "armani-acqua-di-gio",
+  "brand": "Giorgio Armani",
+  "name": "Acqua di Giò",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 5,
+   "CIT": 3,
+   "GRN": 1,
+   "FLR": 1,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.86,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 160,
+  "price_note": "~S$160 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Sea salt and citrus, endlessly easy.",
+  "blurb_zh": "海盐和柑橘，怎么喷都不出错。"
+ },
+ {
+  "id": "bvlgari-aqva",
+  "brand": "Bvlgari",
+  "name": "Aqva Pour Homme",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 5,
+   "GRN": 2,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 140,
+  "price_note": "~S$140 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Seaweed and mandarin, deep blue and calm.",
+  "blurb_zh": "海藻和柑橘，深蓝而平静。"
+ },
+ {
+  "id": "mm-beach-walk",
+  "brand": "Maison Margiela",
+  "name": "Replica Beach Walk",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 3,
+   "CIT": 3,
+   "MUS": 2,
+   "GOU": 1,
+   "FLR": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Sun cream, coconut milk and warm skin.",
+  "blurb_zh": "防晒霜、椰奶和晒暖的皮肤。"
+ },
+ {
+  "id": "mm-sailing-day",
+  "brand": "Maison Margiela",
+  "name": "Replica Sailing Day",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 5,
+   "CIT": 1,
+   "MUS": 2,
+   "GRN": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Salt wind and rope on an early boat.",
+  "blurb_zh": "清晨船上的咸风和缆绳。"
+ },
+ {
+  "id": "jm-wood-sage",
+  "brand": "Jo Malone London",
+  "name": "Wood Sage & Sea Salt",
+  "concentration": "Cologne",
+  "accords": {
+   "AQU": 4,
+   "GRN": 2,
+   "WOO": 2,
+   "MUS": 2
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.86,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 118,
+  "price_note": "~S$118 / 30ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Windswept cliffs, sea salt and sage.",
+  "blurb_zh": "海风吹过的悬崖，海盐和鼠尾草。"
+ },
+ {
+  "id": "hermes-lagune",
+  "brand": "Hermès",
+  "name": "Un Jardin sur la Lagune",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 3,
+   "FLR": 2,
+   "GRN": 1,
+   "MUS": 2,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.7,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 200,
+  "price_note": "~S$200 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Salt air drifting through a lagoon garden.",
+  "blurb_zh": "潟湖花园里飘来的海风。"
+ },
+ {
+  "id": "adp-mirto",
+  "brand": "Acqua di Parma",
+  "name": "Blu Mediterraneo Mirto di Panarea",
+  "concentration": "EDT",
+  "accords": {
+   "AQU": 3,
+   "GRN": 3,
+   "CIT": 2,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 210,
+  "price_note": "~S$210 / 75ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Myrtle, basil and island sea air.",
+  "blurb_zh": "香桃木、罗勒和小岛海风。"
+ },
+ {
+  "id": "creed-smw",
+  "brand": "Creed",
+  "name": "Silver Mountain Water",
+  "concentration": "EDP",
+  "accords": {
+   "AQU": 4,
+   "CIT": 2,
+   "GRN": 2,
+   "MUS": 2
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 480,
+  "price_note": "~S$480 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Snowmelt, green tea and blackcurrant.",
+  "blurb_zh": "雪山融水、绿茶和黑醋栗。"
+ },
+ {
+  "id": "mfk-aqua-universalis",
+  "brand": "Maison Francis Kurkdjian",
+  "name": "Aqua Universalis",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 3,
+   "MUS": 3,
+   "FLR": 2,
+   "AQU": 2
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 330,
+  "price_note": "~S$330 / 70ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Fresh laundry and bergamot, impossibly clean.",
+  "blurb_zh": "新洗衣物和佛手柑，干净到极致。"
+ },
+ {
+  "id": "creed-viw",
+  "brand": "Creed",
+  "name": "Virgin Island Water",
+  "concentration": "EDP",
+  "accords": {
+   "CIT": 3,
+   "AQU": 3,
+   "GOU": 1,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "heat",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 480,
+  "price_note": "~S$480 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Lime, coconut and a white-sand beach.",
+  "blurb_zh": "青柠、椰子和白沙滩。"
+ },
+ {
+  "id": "lanvin-eclat",
+  "brand": "Lanvin",
+  "name": "Éclat d'Arpège",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 3,
+   "FRU": 2,
+   "MUS": 2,
+   "GRN": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 69,
+  "price_note": "~S$69 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Lilac and green tea, soft and pretty.",
+  "blurb_zh": "丁香和绿茶，温柔好看。"
+ },
+ {
+  "id": "cacharel-anais",
+  "brand": "Cacharel",
+  "name": "Anaïs Anaïs",
+  "concentration": "EDT",
+  "accords": {
+   "FLR": 4,
+   "GRN": 1,
+   "MUS": 2
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.62,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 69,
+  "price_note": "~S$69 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "White lily and soft greens, gentle and romantic.",
+  "blurb_zh": "白百合和嫩绿，温柔又浪漫。"
+ },
+ {
+  "id": "vs-bombshell",
+  "brand": "Victoria's Secret",
+  "name": "Bombshell",
+  "concentration": "EDP",
+  "accords": {
+   "FRU": 3,
+   "FLR": 3,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": true,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 90,
+  "price_note": "~S$90 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Passion fruit and peony, bright and flirty.",
+  "blurb_zh": "百香果和牡丹，明亮又俏皮。"
+ },
+ {
+  "id": "mj-daisy",
+  "brand": "Marc Jacobs",
+  "name": "Daisy",
+  "concentration": "EDT",
+  "accords": {
+   "FLR": 3,
+   "FRU": 3,
+   "GRN": 1,
+   "MUS": 2
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 140,
+  "price_note": "~S$140 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Strawberry and violet leaf, sweet and fresh.",
+  "blurb_zh": "草莓和紫罗兰叶，清甜可爱。"
+ },
+ {
+  "id": "chanel-chance-fraiche",
+  "brand": "Chanel",
+  "name": "Chance Eau Fraîche",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 3,
+   "FLR": 3,
+   "GRN": 2,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 205,
+  "price_note": "~S$205 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Citron and jasmine with a green twist.",
+  "blurb_zh": "香橼和茉莉，带一点青绿。"
+ },
+ {
+  "id": "jm-wild-bluebell",
+  "brand": "Jo Malone London",
+  "name": "Wild Bluebell",
+  "concentration": "Cologne",
+  "accords": {
+   "FLR": 4,
+   "GRN": 2,
+   "AQU": 1,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 118,
+  "price_note": "~S$118 / 30ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Dewy bluebells in a shady wood.",
+  "blurb_zh": "林荫下带露水的风铃草。"
+ },
+ {
+  "id": "jm-pear-freesia",
+  "brand": "Jo Malone London",
+  "name": "English Pear & Freesia",
+  "concentration": "Cologne",
+  "accords": {
+   "FRU": 4,
+   "FLR": 3,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.86,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 118,
+  "price_note": "~S$118 / 30ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Ripe pear and white freesia, autumn-crisp.",
+  "blurb_zh": "熟梨和白色小苍兰，秋天般清爽。"
+ },
+ {
+  "id": "jm-nectarine",
+  "brand": "Jo Malone London",
+  "name": "Nectarine Blossom & Honey",
+  "concentration": "Cologne",
+  "accords": {
+   "FRU": 3,
+   "FLR": 3,
+   "GOU": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 118,
+  "price_note": "~S$118 / 30ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Nectarine and acacia honey at a morning market.",
+  "blurb_zh": "油桃和槐花蜜，像清晨的市集。"
+ },
+ {
+  "id": "dior-miss-dior-bb",
+  "brand": "Dior",
+  "name": "Miss Dior Blooming Bouquet",
+  "concentration": "EDT",
+  "accords": {
+   "FLR": 4,
+   "FRU": 2,
+   "MUS": 2,
+   "CIT": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 190,
+  "price_note": "~S$190 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Peony and soft musk, a bouquet in sunlight.",
+  "blurb_zh": "牡丹和柔软麝香，阳光下的花束。"
+ },
+ {
+  "id": "gucci-bloom",
+  "brand": "Gucci",
+  "name": "Bloom",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "GRN": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.78,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 185,
+  "price_note": "~S$185 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Tuberose and jasmine, a garden in full bloom.",
+  "blurb_zh": "晚香玉和茉莉，满园盛开。"
+ },
+ {
+  "id": "mfk-aqua-celestia",
+  "brand": "Maison Francis Kurkdjian",
+  "name": "Aqua Celestia",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 3,
+   "FLR": 3,
+   "GRN": 2,
+   "MUS": 2
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 330,
+  "price_note": "~S$330 / 70ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Lime, mimosa and blackcurrant leaf.",
+  "blurb_zh": "青柠、含羞草和黑醋栗叶。"
+ },
+ {
+  "id": "diptyque-do-son",
+  "brand": "Diptyque",
+  "name": "Do Son",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "AQU": 1,
+   "MUS": 1,
+   "GRN": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.78,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 265,
+  "price_note": "~S$265 / 75ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Tuberose carried on a sea breeze.",
+  "blurb_zh": "海风送来的晚香玉。"
+ },
+ {
+  "id": "penhaligons-luna",
+  "brand": "Penhaligon's",
+  "name": "Luna",
+  "concentration": "EDT",
+  "accords": {
+   "FLR": 3,
+   "CIT": 2,
+   "GRN": 2,
+   "WOO": 1,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 290,
+  "price_note": "~S$290 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Orange, rose and juniper under the moon.",
+  "blurb_zh": "月光下的橙子、玫瑰和杜松。"
+ },
+ {
+  "id": "malle-carnal-flower",
+  "brand": "Frédéric Malle",
+  "name": "Carnal Flower",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "GRN": 2,
+   "MUS": 1,
+   "CIT": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.74,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 520,
+  "price_note": "~S$520 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "The most realistic tuberose, green and lush.",
+  "blurb_zh": "最真实的晚香玉，翠绿浓郁。"
+ },
+ {
+  "id": "ea-red-door",
+  "brand": "Elizabeth Arden",
+  "name": "Red Door",
+  "concentration": "EDT",
+  "accords": {
+   "FLR": 5,
+   "AMB": 2,
+   "FRU": 1,
+   "WOO": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.6,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 59,
+  "price_note": "~S$59 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Red roses and honeyed spice, unapologetically classic.",
+  "blurb_zh": "红玫瑰和蜜意香料，毫不掩饰的经典。"
+ },
+ {
+  "id": "cacharel-amor-amor",
+  "brand": "Cacharel",
+  "name": "Amor Amor",
+  "concentration": "EDT",
+  "accords": {
+   "FRU": 4,
+   "FLR": 3,
+   "GOU": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.7,
+  "heat_ok": true,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 69,
+  "price_note": "~S$69 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Cassis and rose, playful and juicy.",
+  "blurb_zh": "黑醋栗和玫瑰，俏皮多汁。"
+ },
+ {
+  "id": "lancome-tresor",
+  "brand": "Lancôme",
+  "name": "Trésor",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 4,
+   "FRU": 2,
+   "AMB": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.7,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 135,
+  "price_note": "~S$135 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Rose and apricot wrapped in powder.",
+  "blurb_zh": "玫瑰和杏子，包裹在粉感里。"
+ },
+ {
+  "id": "chloe-edp",
+  "brand": "Chloé",
+  "name": "Eau de Parfum",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "FRU": 1,
+   "MUS": 2
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 175,
+  "price_note": "~S$175 / 75ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Fresh rose and peony, polished and pretty.",
+  "blurb_zh": "清新玫瑰和牡丹，精致漂亮。"
+ },
+ {
+  "id": "dior-miss-dior",
+  "brand": "Dior",
+  "name": "Miss Dior",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "FRU": 2,
+   "MUS": 1,
+   "WOO": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 210,
+  "price_note": "~S$210 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "A rose-and-lily bouquet tied with a ribbon.",
+  "blurb_zh": "系着丝带的玫瑰百合花束。"
+ },
+ {
+  "id": "dior-jadore",
+  "brand": "Dior",
+  "name": "J'adore",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "FRU": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.84,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 215,
+  "price_note": "~S$215 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Golden jasmine and ylang, radiant and sure.",
+  "blurb_zh": "金色茉莉和依兰，自信光彩。"
+ },
+ {
+  "id": "jm-red-roses",
+  "brand": "Jo Malone London",
+  "name": "Red Roses",
+  "concentration": "Cologne",
+  "accords": {
+   "FLR": 5,
+   "GRN": 1,
+   "CIT": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 118,
+  "price_note": "~S$118 / 30ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Seven roses, freshly cut.",
+  "blurb_zh": "七种玫瑰，刚刚剪下。"
+ },
+ {
+  "id": "lancome-idole",
+  "brand": "Lancôme",
+  "name": "Idôle",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 4,
+   "MUS": 2,
+   "FRU": 1,
+   "WOO": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 170,
+  "price_note": "~S$170 / 75ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Clean rose and jasmine, bright and modern.",
+  "blurb_zh": "干净玫瑰和茉莉，明亮现代。"
+ },
+ {
+  "id": "ysl-libre",
+  "brand": "Yves Saint Laurent",
+  "name": "Libre",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 4,
+   "AMB": 2,
+   "GOU": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.8,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 200,
+  "price_note": "~S$200 / 90ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Lavender and orange blossom on warm vanilla.",
+  "blurb_zh": "薰衣草和橙花，落在温暖的香草上。"
+ },
+ {
+  "id": "diptyque-eau-rose",
+  "brand": "Diptyque",
+  "name": "Eau Rose",
+  "concentration": "EDT",
+  "accords": {
+   "FLR": 5,
+   "FRU": 1,
+   "GRN": 1,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 200,
+  "price_note": "~S$200 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Rose petals with lychee and blackcurrant.",
+  "blurb_zh": "玫瑰花瓣配荔枝和黑醋栗。"
+ },
+ {
+  "id": "vr-flowerbomb",
+  "brand": "Viktor&Rolf",
+  "name": "Flowerbomb",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 4,
+   "GOU": 3,
+   "FRU": 1,
+   "AMB": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.82,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 205,
+  "price_note": "~S$205 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Sweet florals and candy floss, a happy explosion.",
+  "blurb_zh": "甜蜜花香和棉花糖的快乐爆炸。"
+ },
+ {
+  "id": "byredo-rose-nml",
+  "brand": "Byredo",
+  "name": "Rose of No Man's Land",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 4,
+   "AMB": 2,
+   "FRU": 1,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 330,
+  "price_note": "~S$330 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Turkish rose with pink pepper.",
+  "blurb_zh": "土耳其玫瑰配粉红胡椒。"
+ },
+ {
+  "id": "lelabo-rose31",
+  "brand": "Le Labo",
+  "name": "Rose 31",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 3,
+   "AMB": 3,
+   "WOO": 3,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 365,
+  "price_note": "~S$365 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Rose dusted with cumin and cedar.",
+  "blurb_zh": "撒上孜然和雪松的玫瑰。"
+ },
+ {
+  "id": "tf-rose-prick",
+  "brand": "Tom Ford",
+  "name": "Rose Prick",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "AMB": 2,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 490,
+  "price_note": "~S$490 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Thorny rose with Sichuan pepper.",
+  "blurb_zh": "带刺的玫瑰，加一点花椒。"
+ },
+ {
+  "id": "malle-portrait",
+  "brand": "Frédéric Malle",
+  "name": "Portrait of a Lady",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 5,
+   "AMB": 3,
+   "WOO": 3,
+   "SMK": 1,
+   "FRU": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.82,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 540,
+  "price_note": "~S$540 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Dark rose, patchouli and incense.",
+  "blurb_zh": "深色玫瑰、广藿香和焚香。"
+ },
+ {
+  "id": "bbw-warm-vanilla-sugar",
+  "brand": "Bath & Body Works",
+  "name": "Warm Vanilla Sugar",
+  "concentration": "Mist",
+  "accords": {
+   "GOU": 4,
+   "MUS": 1,
+   "FLR": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.7,
+  "heat_ok": false,
+  "occasions": [
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 33,
+  "price_note": "~S$33 / 236ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Vanilla sugar and soft orchid, cosy and cheap.",
+  "blurb_zh": "香草糖和柔和兰花，舒服又平价。"
+ },
+ {
+  "id": "ag-cloud",
+  "brand": "Ariana Grande",
+  "name": "Cloud",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 4,
+   "FRU": 1,
+   "MUS": 2,
+   "FLR": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": false,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 85,
+  "price_note": "~S$85 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Whipped cream, coconut and pear.",
+  "blurb_zh": "奶油、椰子和梨。"
+ },
+ {
+  "id": "sdj-cheirosa-62",
+  "brand": "Sol de Janeiro",
+  "name": "Cheirosa 62",
+  "concentration": "Mist",
+  "accords": {
+   "GOU": 4,
+   "FRU": 1,
+   "AMB": 1,
+   "MUS": 2
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": false,
+  "occasions": [
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 46,
+  "price_note": "~S$46 / 240ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Pistachio and salted caramel, beach-bag sweet.",
+  "blurb_zh": "开心果和咸焦糖，沙滩包里的甜。"
+ },
+ {
+  "id": "juicy-viva",
+  "brand": "Juicy Couture",
+  "name": "Viva la Juicy",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 3,
+   "FRU": 3,
+   "FLR": 2
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": false,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 90,
+  "price_note": "~S$90 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Wild berries, caramel and vanilla.",
+  "blurb_zh": "野莓、焦糖和香草。"
+ },
+ {
+  "id": "lancome-lveb",
+  "brand": "Lancôme",
+  "name": "La Vie Est Belle",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 4,
+   "FRU": 2,
+   "FLR": 2,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.84,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 175,
+  "price_note": "~S$175 / 75ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Praline and iris, sweet and joyful.",
+  "blurb_zh": "果仁糖和鸢尾，甜美快乐。"
+ },
+ {
+  "id": "ysl-black-opium",
+  "brand": "Yves Saint Laurent",
+  "name": "Black Opium",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 4,
+   "AMB": 2,
+   "FLR": 2,
+   "FRU": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.84,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 90ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Black coffee and vanilla after dark.",
+  "blurb_zh": "夜里的黑咖啡和香草。"
+ },
+ {
+  "id": "prada-candy",
+  "brand": "Prada",
+  "name": "Candy",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 5,
+   "AMB": 2,
+   "MUS": 2
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 165,
+  "price_note": "~S$165 / 80ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Caramel and benzoin, a grown-up sweet.",
+  "blurb_zh": "焦糖和安息香，成熟的甜。"
+ },
+ {
+  "id": "mugler-angel",
+  "brand": "Mugler",
+  "name": "Angel",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 5,
+   "FRU": 2,
+   "AMB": 2,
+   "WOO": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.66,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 175,
+  "price_note": "~S$175 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Chocolate, praline and patchouli: the original gourmand.",
+  "blurb_zh": "巧克力、果仁糖和广藿香，美食调鼻祖。"
+ },
+ {
+  "id": "kayali-vanilla-28",
+  "brand": "Kayali",
+  "name": "Vanilla 28",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 5,
+   "AMB": 2,
+   "FLR": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.78,
+  "heat_ok": false,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 160,
+  "price_note": "~S$160 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Vanilla orchid, brown sugar and tonka.",
+  "blurb_zh": "香草兰、红糖和零陵香豆。"
+ },
+ {
+  "id": "mm-coffee-break",
+  "brand": "Maison Margiela",
+  "name": "Replica Coffee Break",
+  "concentration": "EDT",
+  "accords": {
+   "GOU": 4,
+   "AMB": 1,
+   "FLR": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.7,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Milky coffee and lavender on a lazy afternoon.",
+  "blurb_zh": "慵懒午后的奶咖和薰衣草。"
+ },
+ {
+  "id": "diptyque-eau-duelle",
+  "brand": "Diptyque",
+  "name": "Eau Duelle",
+  "concentration": "EDT",
+  "accords": {
+   "GOU": 4,
+   "AMB": 3,
+   "WOO": 1,
+   "SMK": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 200,
+  "price_note": "~S$200 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Vanilla with tea and black pepper, not too sweet.",
+  "blurb_zh": "香草配茶和黑胡椒，甜而不腻。"
+ },
+ {
+  "id": "tf-lost-cherry",
+  "brand": "Tom Ford",
+  "name": "Lost Cherry",
+  "concentration": "EDP",
+  "accords": {
+   "FRU": 4,
+   "GOU": 3,
+   "AMB": 2,
+   "FLR": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 490,
+  "price_note": "~S$490 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Black cherry and almond liqueur.",
+  "blurb_zh": "黑樱桃和杏仁利口酒。"
+ },
+ {
+  "id": "kilian-ldbs",
+  "brand": "Kilian",
+  "name": "Love, Don't Be Shy",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 5,
+   "FLR": 2,
+   "AMB": 1,
+   "MUS": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.8,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 450,
+  "price_note": "~S$450 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Marshmallow and orange blossom.",
+  "blurb_zh": "棉花糖和橙花。"
+ },
+ {
+  "id": "jm-myrrh-tonka",
+  "brand": "Jo Malone London",
+  "name": "Myrrh & Tonka",
+  "concentration": "Cologne Intense",
+  "accords": {
+   "GOU": 3,
+   "AMB": 4,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 275,
+  "price_note": "~S$275 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Warm tonka and smoky myrrh by the fire.",
+  "blurb_zh": "炉火边的零陵香豆和没药。"
+ },
+ {
+  "id": "tbs-white-musk",
+  "brand": "The Body Shop",
+  "name": "White Musk",
+  "concentration": "EDT",
+  "accords": {
+   "MUS": 4,
+   "FLR": 2,
+   "GOU": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.72,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 45,
+  "price_note": "~S$45 / 60ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Soft white musk and lily, a skin-close classic.",
+  "blurb_zh": "柔和白麝香和百合，贴肤经典。"
+ },
+ {
+  "id": "kiehls-original-musk",
+  "brand": "Kiehl's",
+  "name": "Original Musk",
+  "concentration": "EDT",
+  "accords": {
+   "MUS": 4,
+   "FLR": 2,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.7,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 95,
+  "price_note": "~S$95 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Warm musk with orange blossom, a cult since 1921.",
+  "blurb_zh": "温暖麝香配橙花，1921 年至今的口碑。"
+ },
+ {
+  "id": "philosophy-pure-grace",
+  "brand": "philosophy",
+  "name": "Pure Grace",
+  "concentration": "EDT",
+  "accords": {
+   "MUS": 4,
+   "AQU": 1,
+   "FLR": 1,
+   "CIT": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.7,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 1,
+  "price_sgd": 89,
+  "price_note": "~S$89 / 60ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Soap and water, freshly showered.",
+  "blurb_zh": "肥皂和清水，刚洗完澡的味道。"
+ },
+ {
+  "id": "glossier-you",
+  "brand": "Glossier",
+  "name": "You",
+  "concentration": "EDP",
+  "accords": {
+   "MUS": 4,
+   "AMB": 2,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 110,
+  "price_note": "~S$110 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Iris and ambrette that smell like your skin, only better.",
+  "blurb_zh": "鸢尾和黄葵，像你的皮肤，但更好闻。"
+ },
+ {
+  "id": "nr-for-her",
+  "brand": "Narciso Rodriguez",
+  "name": "For Her",
+  "concentration": "EDT",
+  "accords": {
+   "MUS": 5,
+   "FLR": 2,
+   "WOO": 1,
+   "AMB": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 165,
+  "price_note": "~S$165 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "The definitive musk: sensual and clean.",
+  "blurb_zh": "标杆级麝香：干净又性感。"
+ },
+ {
+  "id": "mm-lazy-sunday",
+  "brand": "Maison Margiela",
+  "name": "Replica Lazy Sunday Morning",
+  "concentration": "EDT",
+  "accords": {
+   "MUS": 5,
+   "FLR": 2,
+   "FRU": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "White sheets and lily of the valley.",
+  "blurb_zh": "白色床单和铃兰。"
+ },
+ {
+  "id": "mm-bubble-bath",
+  "brand": "Maison Margiela",
+  "name": "Replica Bubble Bath",
+  "concentration": "EDT",
+  "accords": {
+   "MUS": 4,
+   "FLR": 2,
+   "AQU": 2,
+   "GOU": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Soap bubbles, rose and coconut milk.",
+  "blurb_zh": "肥皂泡、玫瑰和椰奶。"
+ },
+ {
+  "id": "jhag-not-a-perfume",
+  "brand": "Juliette Has a Gun",
+  "name": "Not a Perfume",
+  "concentration": "EDP",
+  "accords": {
+   "MUS": 4,
+   "WOO": 3
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.7,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 140,
+  "price_note": "~S$140 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "A single molecule of clean, woody musk.",
+  "blurb_zh": "一个分子的干净木质麝香。"
+ },
+ {
+  "id": "prada-infusion-iris",
+  "brand": "Prada",
+  "name": "Infusion d'Iris",
+  "concentration": "EDP",
+  "accords": {
+   "FLR": 3,
+   "MUS": 3,
+   "WOO": 2,
+   "CIT": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 185,
+  "price_note": "~S$185 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Powdery iris and mandarin, elegant and quiet.",
+  "blurb_zh": "粉感鸢尾和柑橘，优雅安静。"
+ },
+ {
+  "id": "prada-lhomme",
+  "brand": "Prada",
+  "name": "L'Homme",
+  "concentration": "EDT",
+  "accords": {
+   "FLR": 2,
+   "WOO": 3,
+   "MUS": 3,
+   "AMB": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 160,
+  "price_note": "~S$160 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Iris, neroli and ambergris: a clean shirt.",
+  "blurb_zh": "鸢尾、橙花和龙涎，一件干净的衬衫。"
+ },
+ {
+  "id": "lelabo-another13",
+  "brand": "Le Labo",
+  "name": "Another 13",
+  "concentration": "EDP",
+  "accords": {
+   "MUS": 5,
+   "WOO": 2,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 365,
+  "price_note": "~S$365 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Ambrette and moss, skin-close and addictive.",
+  "blurb_zh": "黄葵和苔藓，贴肤又上瘾。"
+ },
+ {
+  "id": "byredo-blanche",
+  "brand": "Byredo",
+  "name": "Blanche",
+  "concentration": "EDP",
+  "accords": {
+   "MUS": 4,
+   "FLR": 3,
+   "CIT": 1
+  },
+  "gender": "fem",
+  "projection": 1,
+  "crowd_pleaser": 0.74,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 330,
+  "price_note": "~S$330 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Freshly washed white linen.",
+  "blurb_zh": "刚洗好的白色亚麻。"
+ },
+ {
+  "id": "diptyque-fleur-de-peau",
+  "brand": "Diptyque",
+  "name": "Fleur de Peau",
+  "concentration": "EDP",
+  "accords": {
+   "MUS": 5,
+   "FLR": 2,
+   "WOO": 1,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 265,
+  "price_note": "~S$265 / 75ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Iris and musk, soft as skin.",
+  "blurb_zh": "鸢尾与麝香，柔软如肌肤。"
+ },
+ {
+  "id": "byredo-mojave-ghost",
+  "brand": "Byredo",
+  "name": "Mojave Ghost",
+  "concentration": "EDP",
+  "accords": {
+   "MUS": 3,
+   "FLR": 3,
+   "WOO": 2,
+   "FRU": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 330,
+  "price_note": "~S$330 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Sapodilla and violet in the desert.",
+  "blurb_zh": "沙漠里的人心果和紫罗兰。"
+ },
+ {
+  "id": "mb-explorer",
+  "brand": "Montblanc",
+  "name": "Explorer",
+  "concentration": "EDP",
+  "accords": {
+   "WOO": 3,
+   "CIT": 2,
+   "AMB": 2,
+   "SMK": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 95,
+  "price_note": "~S$95 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Vetiver and bergamot, an everyday adventure.",
+  "blurb_zh": "香根草和佛手柑，日常的冒险。"
+ },
+ {
+  "id": "boss-bottled",
+  "brand": "Hugo Boss",
+  "name": "Boss Bottled",
+  "concentration": "EDT",
+  "accords": {
+   "WOO": 3,
+   "FRU": 2,
+   "AMB": 2,
+   "MUS": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 95,
+  "price_note": "~S$95 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Apple, cinnamon and sandalwood, smart and warm.",
+  "blurb_zh": "苹果、肉桂和檀香，体面又温暖。"
+ },
+ {
+  "id": "em-molecule-01",
+  "brand": "Escentric Molecules",
+  "name": "Molecule 01",
+  "concentration": "EDT",
+  "accords": {
+   "WOO": 5,
+   "MUS": 2
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.72,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 150,
+  "price_note": "~S$150 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Pure velvety cedar that hums on skin.",
+  "blurb_zh": "纯粹丝绒般的雪松，在皮肤上低吟。"
+ },
+ {
+  "id": "diptyque-tam-dao",
+  "brand": "Diptyque",
+  "name": "Tam Dao",
+  "concentration": "EDT",
+  "accords": {
+   "WOO": 5,
+   "AMB": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 1,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 215,
+  "price_note": "~S$215 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Creamy sandalwood and cypress.",
+  "blurb_zh": "奶油般的檀香和柏木。"
+ },
+ {
+  "id": "hermes-terre",
+  "brand": "Hermès",
+  "name": "Terre d'Hermès",
+  "concentration": "EDT",
+  "accords": {
+   "WOO": 4,
+   "CIT": 3,
+   "GRN": 1,
+   "SMK": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.86,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 180,
+  "price_note": "~S$180 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Orange and vetiver on warm earth.",
+  "blurb_zh": "温热土壤上的橙子和香根草。"
+ },
+ {
+  "id": "hermes-voyage",
+  "brand": "Hermès",
+  "name": "Voyage d'Hermès",
+  "concentration": "EDT",
+  "accords": {
+   "WOO": 3,
+   "CIT": 2,
+   "MUS": 2,
+   "GRN": 1,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "heat",
+   "casual"
+  ],
+  "price_tier": 2,
+  "price_sgd": 190,
+  "price_note": "~S$190 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Cardamom, tea and dry woods for wandering.",
+  "blurb_zh": "小豆蔻、茶和干燥木质，适合远行。"
+ },
+ {
+  "id": "chanel-bleu",
+  "brand": "Chanel",
+  "name": "Bleu de Chanel",
+  "concentration": "EDP",
+  "accords": {
+   "WOO": 3,
+   "CIT": 3,
+   "AMB": 2,
+   "SMK": 1,
+   "MUS": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.88,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 210,
+  "price_note": "~S$210 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Grapefruit, incense and cedar, sharp and sure.",
+  "blurb_zh": "葡萄柚、焚香和雪松，利落笃定。"
+ },
+ {
+  "id": "dior-sauvage",
+  "brand": "Dior",
+  "name": "Sauvage",
+  "concentration": "EDT",
+  "accords": {
+   "CIT": 3,
+   "AMB": 3,
+   "WOO": 2,
+   "MUS": 2,
+   "AQU": 1
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.84,
+  "heat_ok": true,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 180,
+  "price_note": "~S$180 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Peppery bergamot and ambroxan, loud and clean.",
+  "blurb_zh": "胡椒佛手柑和龙涎醚，响亮又干净。"
+ },
+ {
+  "id": "byredo-gypsy-water",
+  "brand": "Byredo",
+  "name": "Gypsy Water",
+  "concentration": "EDP",
+  "accords": {
+   "WOO": 3,
+   "CIT": 2,
+   "AMB": 1,
+   "GOU": 1,
+   "GRN": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual"
+  ],
+  "price_tier": 3,
+  "price_sgd": 330,
+  "price_note": "~S$330 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Pine needles, lemon and vanilla by a campfire.",
+  "blurb_zh": "松针、柠檬和香草，篝火旁的味道。"
+ },
+ {
+  "id": "lelabo-santal33",
+  "brand": "Le Labo",
+  "name": "Santal 33",
+  "concentration": "EDP",
+  "accords": {
+   "WOO": 5,
+   "SMK": 2,
+   "AMB": 2,
+   "FLR": 1,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.84,
+  "heat_ok": false,
+  "occasions": [
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 365,
+  "price_note": "~S$365 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Leathery sandalwood and cardamom.",
+  "blurb_zh": "皮革感檀香和小豆蔻。"
+ },
+ {
+  "id": "tf-oud-wood",
+  "brand": "Tom Ford",
+  "name": "Oud Wood",
+  "concentration": "EDP",
+  "accords": {
+   "WOO": 5,
+   "AMB": 2,
+   "SMK": 1,
+   "GOU": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.86,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 490,
+  "price_note": "~S$490 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Smooth oud, sandalwood and tonka.",
+  "blurb_zh": "顺滑乌木、檀香和零陵香豆。"
+ },
+ {
+  "id": "chanel-sycomore",
+  "brand": "Chanel",
+  "name": "Sycomore",
+  "concentration": "EDP",
+  "accords": {
+   "WOO": 5,
+   "SMK": 2,
+   "GRN": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.78,
+  "heat_ok": true,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 395,
+  "price_note": "~S$395 / 75ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Smoky vetiver and cypress, quietly grand.",
+  "blurb_zh": "烟熏香根草和柏木，低调而大气。"
+ },
+ {
+  "id": "lelabo-the-noir29",
+  "brand": "Le Labo",
+  "name": "Thé Noir 29",
+  "concentration": "EDP",
+  "accords": {
+   "WOO": 4,
+   "FRU": 2,
+   "SMK": 2,
+   "GRN": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 365,
+  "price_note": "~S$365 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Black tea, fig and tobacco leaf.",
+  "blurb_zh": "红茶、无花果和烟叶。"
+ },
+ {
+  "id": "ck-obsession-men",
+  "brand": "Calvin Klein",
+  "name": "Obsession for Men",
+  "concentration": "EDT",
+  "accords": {
+   "AMB": 5,
+   "WOO": 2,
+   "GOU": 1
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.62,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 69,
+  "price_note": "~S$69 / 125ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Warm spice and amber, an 80s icon.",
+  "blurb_zh": "温暖香料和琥珀，80 年代的经典。"
+ },
+ {
+  "id": "lattafa-khamrah",
+  "brand": "Lattafa",
+  "name": "Khamrah",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 4,
+   "AMB": 4,
+   "FRU": 1,
+   "WOO": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.82,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 65,
+  "price_note": "~S$65 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Dates, cinnamon and praline, rich for the price.",
+  "blurb_zh": "椰枣、肉桂和果仁糖，价格友好。"
+ },
+ {
+  "id": "afnan-9pm",
+  "brand": "Afnan",
+  "name": "9pm",
+  "concentration": "EDP",
+  "accords": {
+   "AMB": 4,
+   "GOU": 3,
+   "FRU": 1,
+   "CIT": 1
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 59,
+  "price_note": "~S$59 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Apple, cinnamon and vanilla for nights out.",
+  "blurb_zh": "苹果、肉桂和香草，夜晚出门的选择。"
+ },
+ {
+  "id": "lattafa-asad",
+  "brand": "Lattafa",
+  "name": "Asad",
+  "concentration": "EDP",
+  "accords": {
+   "AMB": 4,
+   "SMK": 2,
+   "WOO": 2,
+   "GOU": 1
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.74,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 49,
+  "price_note": "~S$49 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Black pepper, tobacco and amber, bold and cheap.",
+  "blurb_zh": "黑胡椒、烟草和琥珀，大胆又平价。"
+ },
+ {
+  "id": "vr-spicebomb",
+  "brand": "Viktor&Rolf",
+  "name": "Spicebomb",
+  "concentration": "EDT",
+  "accords": {
+   "AMB": 5,
+   "SMK": 2,
+   "WOO": 2,
+   "GOU": 1
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 170,
+  "price_note": "~S$170 / 90ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Chilli, tobacco and leather in a grenade.",
+  "blurb_zh": "辣椒、烟草和皮革装进手榴弹。"
+ },
+ {
+  "id": "mm-jazz-club",
+  "brand": "Maison Margiela",
+  "name": "Replica Jazz Club",
+  "concentration": "EDT",
+  "accords": {
+   "AMB": 3,
+   "GOU": 3,
+   "SMK": 2,
+   "WOO": 2
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.8,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Rum, tobacco leaf and vanilla in a dim bar.",
+  "blurb_zh": "昏暗酒吧里的朗姆、烟叶和香草。"
+ },
+ {
+  "id": "guerlain-shalimar",
+  "brand": "Guerlain",
+  "name": "Shalimar",
+  "concentration": "EDP",
+  "accords": {
+   "AMB": 5,
+   "GOU": 3,
+   "CIT": 2,
+   "FLR": 1,
+   "SMK": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.7,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 185,
+  "price_note": "~S$185 / 90ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Bergamot and smoky vanilla, a legend since 1925.",
+  "blurb_zh": "佛手柑和烟熏香草，1925 年的传奇。"
+ },
+ {
+  "id": "hermes-merveilles",
+  "brand": "Hermès",
+  "name": "Eau des Merveilles",
+  "concentration": "EDT",
+  "accords": {
+   "AMB": 4,
+   "WOO": 3,
+   "CIT": 1
+  },
+  "gender": "fem",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 190,
+  "price_note": "~S$190 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Orange peel and ambergris, sparkling warmth.",
+  "blurb_zh": "橙皮和龙涎香，闪着光的温暖。"
+ },
+ {
+  "id": "dior-hypnotic-poison",
+  "brand": "Dior",
+  "name": "Hypnotic Poison",
+  "concentration": "EDT",
+  "accords": {
+   "GOU": 4,
+   "AMB": 3,
+   "FLR": 1
+  },
+  "gender": "fem",
+  "projection": 3,
+  "crowd_pleaser": 0.78,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 185,
+  "price_note": "~S$185 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Almond, vanilla and jasmine, deliciously dark.",
+  "blurb_zh": "杏仁、香草和茉莉，美味又暗黑。"
+ },
+ {
+  "id": "ah-amber-oud-gold",
+  "brand": "Al Haramain",
+  "name": "Amber Oud Gold Edition",
+  "concentration": "EDP",
+  "accords": {
+   "AMB": 4,
+   "GOU": 3,
+   "FRU": 2,
+   "MUS": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.74,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 120,
+  "price_note": "~S$120 / 120ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Melon, amber and vanilla, loud and sunny.",
+  "blurb_zh": "蜜瓜、琥珀和香草，响亮又明媚。"
+ },
+ {
+  "id": "mfk-br540",
+  "brand": "Maison Francis Kurkdjian",
+  "name": "Baccarat Rouge 540",
+  "concentration": "EDP",
+  "accords": {
+   "AMB": 4,
+   "WOO": 3,
+   "GOU": 2,
+   "FLR": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.86,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 480,
+  "price_note": "~S$480 / 70ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Saffron, amberwood and burnt sugar.",
+  "blurb_zh": "藏红花、琥珀木和焦糖。"
+ },
+ {
+  "id": "tf-black-orchid",
+  "brand": "Tom Ford",
+  "name": "Black Orchid",
+  "concentration": "EDP",
+  "accords": {
+   "AMB": 4,
+   "FLR": 2,
+   "GOU": 2,
+   "WOO": 2,
+   "SMK": 1,
+   "FRU": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 260,
+  "price_note": "~S$260 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Dark truffle, black orchid and patchouli.",
+  "blurb_zh": "黑松露、黑兰花和广藿香。"
+ },
+ {
+  "id": "kilian-angels-share",
+  "brand": "Kilian",
+  "name": "Angels' Share",
+  "concentration": "EDP",
+  "accords": {
+   "GOU": 4,
+   "AMB": 4,
+   "WOO": 2,
+   "FRU": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.84,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 450,
+  "price_note": "~S$450 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Cognac, cinnamon and oak.",
+  "blurb_zh": "干邑、肉桂和橡木。"
+ },
+ {
+  "id": "lutens-ambre-sultan",
+  "brand": "Serge Lutens",
+  "name": "Ambre Sultan",
+  "concentration": "EDP",
+  "accords": {
+   "AMB": 5,
+   "WOO": 2,
+   "GRN": 1,
+   "SMK": 1
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.72,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 280,
+  "price_note": "~S$280 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Resinous amber with oregano and bay leaf.",
+  "blurb_zh": "树脂琥珀配牛至和月桂。"
+ },
+ {
+  "id": "zara-vibrant-leather",
+  "brand": "Zara",
+  "name": "Vibrant Leather",
+  "concentration": "EDP",
+  "accords": {
+   "SMK": 4,
+   "AMB": 2,
+   "WOO": 2,
+   "FRU": 1
+  },
+  "gender": "masc",
+  "projection": 2,
+  "crowd_pleaser": 0.7,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 39,
+  "price_note": "~S$39 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Cardamom and soft leather for very little.",
+  "blurb_zh": "小豆蔻和柔软皮革，小钱就能拥有。"
+ },
+ {
+  "id": "armaf-cdnim",
+  "brand": "Armaf",
+  "name": "Club de Nuit Intense Man",
+  "concentration": "EDT",
+  "accords": {
+   "SMK": 3,
+   "FRU": 2,
+   "WOO": 3,
+   "CIT": 2
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.76,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 1,
+  "price_sgd": 79,
+  "price_note": "~S$79 / 105ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Smoky birch and pineapple, a big-value bruiser.",
+  "blurb_zh": "烟熏桦木和菠萝，物超所值。"
+ },
+ {
+  "id": "mm-by-the-fireplace",
+  "brand": "Maison Margiela",
+  "name": "Replica By the Fireplace",
+  "concentration": "EDT",
+  "accords": {
+   "SMK": 4,
+   "WOO": 3,
+   "GOU": 2,
+   "AMB": 2
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.82,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 195,
+  "price_note": "~S$195 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Chestnuts, clove and woodsmoke in winter.",
+  "blurb_zh": "冬天的栗子、丁香和柴火烟。"
+ },
+ {
+  "id": "tf-ombre-leather",
+  "brand": "Tom Ford",
+  "name": "Ombré Leather",
+  "concentration": "EDP",
+  "accords": {
+   "SMK": 5,
+   "WOO": 2,
+   "FLR": 1,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.8,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 230,
+  "price_note": "~S$230 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Soft black leather and jasmine.",
+  "blurb_zh": "柔软黑皮革和茉莉。"
+ },
+ {
+  "id": "aesop-hwyl",
+  "brand": "Aesop",
+  "name": "Hwyl",
+  "concentration": "EDP",
+  "accords": {
+   "SMK": 3,
+   "WOO": 4,
+   "GRN": 2
+  },
+  "gender": "uni",
+  "projection": 2,
+  "crowd_pleaser": 0.74,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 220,
+  "price_note": "~S$220 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Smoke, thyme and cypress in a Japanese forest.",
+  "blurb_zh": "日本森林里的烟、百里香和柏木。"
+ },
+ {
+  "id": "dior-fahrenheit",
+  "brand": "Dior",
+  "name": "Fahrenheit",
+  "concentration": "EDT",
+  "accords": {
+   "SMK": 3,
+   "WOO": 3,
+   "FLR": 2,
+   "AMB": 1
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.74,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 2,
+  "price_sgd": 165,
+  "price_note": "~S$165 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Violet leaf and leather with a petrol shine.",
+  "blurb_zh": "紫罗兰叶和皮革，带一点汽油般的光泽。"
+ },
+ {
+  "id": "tf-tuscan-leather",
+  "brand": "Tom Ford",
+  "name": "Tuscan Leather",
+  "concentration": "EDP",
+  "accords": {
+   "SMK": 5,
+   "FRU": 2,
+   "WOO": 2,
+   "AMB": 1
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.78,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 490,
+  "price_note": "~S$490 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Raspberry and raw leather, unmistakable.",
+  "blurb_zh": "覆盆子和生皮革，辨识度极高。"
+ },
+ {
+  "id": "lelabo-patchouli24",
+  "brand": "Le Labo",
+  "name": "Patchouli 24",
+  "concentration": "EDP",
+  "accords": {
+   "SMK": 5,
+   "GOU": 2,
+   "WOO": 2
+  },
+  "gender": "uni",
+  "projection": 3,
+  "crowd_pleaser": 0.68,
+  "heat_ok": false,
+  "occasions": [
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 365,
+  "price_note": "~S$365 / 50ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Birch tar and vanilla, a campfire in a library.",
+  "blurb_zh": "白桦焦油和香草，图书馆里的篝火。"
+ },
+ {
+  "id": "creed-aventus",
+  "brand": "Creed",
+  "name": "Aventus",
+  "concentration": "EDP",
+  "accords": {
+   "FRU": 3,
+   "SMK": 2,
+   "WOO": 3,
+   "CIT": 2,
+   "MUS": 1
+  },
+  "gender": "masc",
+  "projection": 3,
+  "crowd_pleaser": 0.86,
+  "heat_ok": false,
+  "occasions": [
+   "office",
+   "casual",
+   "evening"
+  ],
+  "price_tier": 3,
+  "price_sgd": 520,
+  "price_note": "~S$520 / 100ml",
+  "available_sg": true,
+  "recommendable": true,
+  "sample_url": null,
+  "buy_url": null,
+  "gift_url": null,
+  "blurb_en": "Smoky pineapple and birch, the boardroom classic.",
+  "blurb_zh": "烟熏菠萝和桦木，会议室里的经典。"
+ }
+]

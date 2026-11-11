@@ -6,7 +6,7 @@ import Header from './Header';
 import Tile from './Tile';
 import AnchorSearch from './AnchorSearch';
 import LoadingScreen from './LoadingScreen';
-import { DATA, QUESTIONS } from '@/lib/data';
+import { DATA, QUESTIONS, nextQuestionImages } from '@/lib/data';
 import { useI18n } from '@/lib/i18n';
 import { useQuiz } from '@/lib/quiz-state';
 import { encodeAnswers } from '@/lib/encode';
@@ -30,6 +30,8 @@ export default function QuizStep({ step }: { step: number }) {
     shownAt.current = Date.now();
     busy.current = false;
     setPending(quiz.answers[q?.id] ?? []);
+    // Load the next screen's photos while this one is up.
+    for (const src of nextQuestionImages(step)) new Image().src = src;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [step, quiz.loaded]);
 
@@ -59,6 +61,8 @@ export default function QuizStep({ step }: { step: number }) {
       anchors_count: answers.q2?.length ?? 0,
       has_16type: !!r.type16,
       has_sign: !!r.sign,
+      scent_type: r.type.id,
+      wear_style: r.wearStyle.id,
     });
     // Deliberate 1.5s pause: the result should feel computed.
     setTimeout(() => {

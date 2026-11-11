@@ -1,0 +1,6 @@
+{
+  "source": "estimate",
+  "updated": "2026-11-11",
+  "note": "Share of people per scent type, in percent. Starts as an editorial estimate; replace with real result_view counts via `npm run rarity -- counts.json` once each type has enough results.",
+  "types": { "citrus": 14, "fig": 7, "sea": 13, "garden": 11, "rose": 10, "vanilla": 15, "skin": 12, "woods": 8, "spice": 6, "smoke": 4 }
+}

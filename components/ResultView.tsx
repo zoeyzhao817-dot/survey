@@ -50,7 +50,7 @@ export default function ResultView({ id }: { id: string }) {
     tracked.current = true;
     if (fresh) rememberMine(id);
     setAnalyticsContext({ mode: result.mode, ref: refParam && friend ? refParam : null });
-    track('result_view', { scent_type: result.type.id, pick_ids: result.picks.map((p) => p.fragrance.id), return_visit: !fresh && mine });
+    track('result_view', { scent_type: result.type.id, wear_style: result.wearStyle.id, pick_ids: result.picks.map((p) => p.fragrance.id), return_visit: !fresh && mine });
     if (fresh && friend) track('compare_complete', { band: compare(result, friend, DATA).band.id });
   }, [ready, result, fresh, mine, friend, id, refParam]);
 
@@ -163,36 +163,51 @@ export default function ResultView({ id }: { id: string }) {
       ) : null}
 
       <p className="mt-1 text-center text-xs font-semibold uppercase tracking-[0.2em] text-muted">{words.label}</p>
-      <h1 className="mb-4 mt-1 text-center font-display text-2xl font-semibold leading-tight text-ink">{words.headline}</h1>
+      <h1 className="mt-0.5 text-center font-display text-xl font-semibold leading-tight text-ink">{words.fullLabel}</h1>
+      <p className="mb-3 text-center text-xs text-muted">{words.wearLine}</p>
 
-      <CardPreview input={cardInput} alt={[words.typeZh, words.typeEn, words.tagline, ...words.lines].filter(Boolean).join('. ')} />
+      <div className="mx-auto w-[72%] max-w-[300px]">
+        <CardPreview input={cardInput} alt={[words.typeZh, words.cardSubline, words.rarity, words.tagline, ...words.lines].filter(Boolean).join('. ')} />
+      </div>
 
-      <div className="relative mt-3 grid grid-cols-3 gap-2">
-        <button onClick={() => setDlOpen((x) => !x)} className="btn-primary !px-2" aria-expanded={dlOpen}>
+
+      {/* Peak interest: lead with the friend invite, then saving the card. Share/copy stay as quiet links. */}
+      <div className="relative mt-4 flex flex-col gap-2">
+        {mine ? (
+          <>
+            <button onClick={invite} className="btn-primary h-14 w-full text-base">
+              {t('compare.title')}
+            </button>
+            <p className="-mt-0.5 mb-1 text-center text-xs text-muted">{t('compare.short')}</p>
+          </>
+        ) : null}
+        <button onClick={() => setDlOpen((x) => !x)} className="btn-secondary h-12 w-full" aria-expanded={dlOpen}>
           {t('download')}
         </button>
-        <button onClick={share} className="btn-secondary !px-2">
-          {t('share')}
-        </button>
-        <button
-          onClick={() => {
-            track('share_click', { channel: 'copy' });
-            copy(resultUrl);
-          }}
-          className="btn-secondary !px-2"
-        >
-          {t('copy')}
-        </button>
         {dlOpen ? (
-          <div className="absolute left-0 top-12 z-10 flex w-2/3 flex-col overflow-hidden rounded-xl bg-white shadow-lg ring-1 ring-line">
-            <button onClick={() => download('9x16')} className="px-4 py-3 text-left text-sm hover:bg-paper">
-              {t('download916')} · 1080×1920
+          <div className="flex overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-line">
+            <button onClick={() => download('9x16')} className="flex-1 px-3 py-3 text-sm hover:bg-paper">
+              {t('download916')}
             </button>
-            <button onClick={() => download('3x4')} className="border-t border-line px-4 py-3 text-left text-sm hover:bg-paper">
-              {t('download34')} · 1080×1440
+            <button onClick={() => download('3x4')} className="flex-1 border-l border-line px-3 py-3 text-sm hover:bg-paper">
+              {t('download34')}
             </button>
           </div>
         ) : null}
+        <div className="flex justify-center gap-5 pt-1 text-sm text-muted">
+          <button onClick={share} className="underline underline-offset-4">
+            {t('share')}
+          </button>
+          <button
+            onClick={() => {
+              track('share_click', { channel: 'copy' });
+              copy(resultUrl);
+            }}
+            className="underline underline-offset-4"
+          >
+            {t('copy')}
+          </button>
+        </div>
       </div>
 
       {cmp && friend ? (
@@ -256,19 +271,10 @@ export default function ResultView({ id }: { id: string }) {
         </div>
       ) : null}
 
-      {mine ? (
-        <section className="mt-8 rounded-2xl p-4 text-center" style={{ background: result.type.color + '1f' }}>
-          <h2 className="font-display text-lg font-semibold">{t('compare.title')}</h2>
-          <p className="mt-1 text-sm text-muted">{t('compare.sub')}</p>
-          <button onClick={invite} className="btn-primary mt-3 w-full">
-            {t('compare.btn')}
-          </button>
-        </section>
-      ) : null}
-
       <footer className="mt-10 space-y-2 text-center text-xs leading-relaxed text-muted">
         <p>{t('footer.aff')}</p>
         <p>{t('footer.fun')}</p>
+        <p>{t('rarity.estimate')}</p>
         <div className="flex justify-center gap-4 pt-2">
           <Link href="/" className="font-semibold text-ink underline underline-offset-4">
             {t('retake')}

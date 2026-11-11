@@ -90,9 +90,24 @@ export interface Archetype {
 /** Raw answers keyed by question id. Each value is a list of option ids (Q2: fragrance ids). Empty list = skipped. */
 export type Answers = Record<string, string[]>;
 
+export interface WearStyle {
+  id: string;
+  value: number; // Q8 projection answer
+  name: L10n;
+  line: L10n;
+}
+
+export interface Rarity {
+  source: 'estimate' | 'analytics';
+  updated: string;
+  note: string;
+  types: Record<string, number>;
+}
+
 export interface QuizData {
   fragrances: Fragrance[];
   anchors: Anchor[];
   questions: Question[];
   archetypes: Archetype[];
+  wearStyles: WearStyle[];
 }

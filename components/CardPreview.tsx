@@ -14,7 +14,7 @@ export default function CardPreview({ input, alt }: { input: CardInput; alt: str
     };
   }, [input]);
   return (
-    <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl shadow-xl shadow-black/10" style={{ background: input.result.type.color }}>
+    <div className="aspect-[3/4] w-full overflow-hidden rounded-2xl shadow-xl shadow-black/10" style={{ background: input.result.type.color }}>
       {src ? <img src={src} alt={alt} className="h-full w-full" /> : null}
     </div>
   );

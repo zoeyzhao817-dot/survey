@@ -3,7 +3,7 @@
  * Same answers always give the same type and picks. No I/O, no randomness, no clock.
  */
 import { ACCORD_PHRASE, ELEMENT_VEC, LETTER_VEC, TAG_VEC } from './accords';
-import type { Anchor, Answers, Archetype, Dim, Fragrance, Gender, L10n, Option, QuizData, Tag, Tier, Vec } from './types';
+import type { Anchor, Answers, Archetype, WearStyle, Dim, Fragrance, Gender, L10n, Option, QuizData, Tag, Tier, Vec } from './types';
 import { DIMS } from './types';
 import { add, argmax, cosine, norm, toVec, zero } from './vec';
 
@@ -35,6 +35,8 @@ export interface MatchResult {
   mode: 'self' | 'gift';
   ctx: UserContext;
   type: Archetype;
+  /** Second half of the label, from Q8: e.g. Night Spice · Close-to-skin. Display only; never changes the picks. */
+  wearStyle: WearStyle;
   typeScores: { id: string; cos: number }[];
   picks: Pick[];
   type16: string | null;
@@ -342,6 +344,7 @@ export function match(answers: Answers, data: QuizData): MatchResult {
     mode: one(data, answers, 'q1')?.id === 'gift' ? 'gift' : 'self',
     ctx,
     type,
+    wearStyle: data.wearStyles.find((w) => w.value === ctx.proj) ?? data.wearStyles[1],
     typeScores: scores,
     picks,
     type16: one(data, answers, 'q9')?.id ?? null,

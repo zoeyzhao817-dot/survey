@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const answers = decodeAnswers(id, QUESTIONS);
   if (!answers) return { title: 'Scent Type' };
   const r = match(answers, DATA);
-  const title = `${r.type.name.zh} ${r.type.name.en} · Scent Type`;
+  const title = `${r.type.name.zh} ${r.type.name.en} · ${r.wearStyle.name.en} · Scent Type`;
   const description = `${r.type.read.en} What's your scent type? 90 seconds, no sign-up.`;
   const image = `/api/og/${encodeURIComponent(id)}`;
   return {

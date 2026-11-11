@@ -1,0 +1,5 @@
+[
+  { "id": "close", "value": 1, "name": { "en": "Close-to-skin", "zh": "贴肤系" }, "line": { "en": "Your scent is a secret for whoever gets close.", "zh": "你的香只留给靠近你的人。" } },
+  { "id": "trail", "value": 2, "name": { "en": "Soft trail", "zh": "微风系" }, "line": { "en": "You leave a soft trail, never a cloud.", "zh": "你留下的是一缕微风，不是一团香雾。" } },
+  { "id": "statement", "value": 3, "name": { "en": "Statement", "zh": "存在感系" }, "line": { "en": "People know you've arrived before they see you.", "zh": "人还没到，香先到了。" } }
+]

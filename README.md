@@ -28,12 +28,15 @@ npm run build        # validates data/ first, then builds
 | `lib/analytics.ts` | The 11 spec events, cookieless (Plausible or PostHog) |
 | `data/` | `questions.json`, `archetypes.json`, `copy.en.json`, `copy.zh.json`, `fragrances.json`, `anchors.json` |
 | `data/seed/*.psv` | Curator source for the catalogue; `npm run catalogue` regenerates the JSON |
+| `data/wear-styles.json` | Second half of the label from Q8 (Close-to-skin / Soft trail / Statement): 10 types × 3 = 30 labels, display only |
+| `data/rarity.json` | Share of people per type for the card's brag line (estimate for now) |
 | `tests/personas.json` | 12 golden personas (currently 11/12 pass; CI needs 10) |
 
 ## Not done yet (needs decisions or accounts)
 
 - **Fragrance API sync.** The 131 recommendable scents and 30 search-only anchors are a hand-curated seed with estimated accords and **estimated Singapore prices**. Check prices before launch. The weekly sync job and accord map wait until a provider and licence are chosen; `/api/search` has the hook for it.
 - **Affiliate links.** None yet. "Try a sample" and "Buy full size" open a Google search as a placeholder (`NEXT_PUBLIC_PLACEHOLDER_LINKS=0` hides them instead, as the spec intends at launch).
-- **Photo tiles.** Tiles use gradient + emoji. Drop licensed photos in `public/tiles/` and set `image` on an option in `questions.json`.
+- **Photo tiles.** Drop-in ready, but no photos yet: tiles fall back to gradient + emoji. See `docs/photo-brief.md` for the 32-photo shot list, specs and how to add them (`npm run tiles`; the build refuses a photo without a licence entry in `data/photo-credits.json`).
+- **Rarity.** "Only 4% of people are Smoke and Incense" uses estimates in `data/rarity.json`. Once analytics has 1,000+ results (30+ per type), export `result_view` counts per `scent_type` and run `npm run rarity -- counts.json`.
 - **Copy review.** All 38 snippets exist in both languages and should get a pass from a native writer.
 - **Domain and name** are still placeholders.

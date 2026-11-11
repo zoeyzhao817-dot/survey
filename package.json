@@ -11,7 +11,9 @@
     "lint": "tsc --noEmit",
     "test": "vitest run",
     "validate": "tsx scripts/validate-data.ts",
-    "catalogue": "tsx scripts/build-catalogue.ts"
+    "catalogue": "tsx scripts/build-catalogue.ts",
+    "tiles": "tsx scripts/index-tiles.ts",
+    "rarity": "tsx scripts/update-rarity.ts"
   },
   "dependencies": {
     "next": "^15.5.29",

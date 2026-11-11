@@ -82,6 +82,14 @@ const archetype = z.object({ id: z.string(), name: l10n, vec: accords, color: z.
 const anchor = z.object({ id: z.string(), brand: z.string(), name: z.string(), accords }).strict();
 const copy = z.object({ ui: z.record(z.string()), type16: z.record(z.string()), sign: z.record(z.string()) });
 
+const credit = z.object({ license: z.string().min(2), source: z.string().url(), author: z.string().min(1) }).strict();
+const rarity = z.object({ source: z.enum(['estimate', 'analytics']), updated: z.string(), note: z.string(), types: z.record(z.number().min(1).max(100)) }).strict();
+const wear = z.array(z.object({ id: z.string(), value: z.number(), name: l10n, line: l10n }).strict()).length(3);
+const tiles = z.record(z.string()).parse(load('tile-manifest.json'));
+const credits = z.record(credit).parse(load('photo-credits.json'));
+const ra = rarity.parse(load('rarity.json'));
+wear.parse(load('wear-styles.json'));
+
 const fr = z.array(fragrance).parse(load('fragrances.json'));
 const an = z.array(anchor).parse(load('anchors.json'));
 const qs = z.array(question).length(12).parse(load('questions.json'));
@@ -91,6 +99,13 @@ const zh = copy.parse(load('copy.zh.json'));
 
 const errors: string[] = [];
 const warn: string[] = [];
+
+// Photos ship only with a recorded licence.
+for (const key of Object.keys(tiles)) if (!credits[key]) errors.push(`Photo tile ${key} has no entry in data/photo-credits.json`);
+for (const a of ['citrus', 'fig', 'sea', 'garden', 'rose', 'vanilla', 'skin', 'woods', 'spice', 'smoke'])
+  if (!ra.types[a]) errors.push(`rarity.json missing ${a}`);
+const raSum = Object.values(ra.types).reduce((s, x) => s + x, 0);
+if (Math.abs(raSum - 100) > 3) warn.push(`rarity.json percentages sum to ${raSum}, not ~100.`);
 
 const ids = [...fr.map((f) => f.id), ...an.map((a) => a.id)];
 const dupes = ids.filter((id, i) => ids.indexOf(id) !== i);

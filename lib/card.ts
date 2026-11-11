@@ -6,6 +6,7 @@ import type { MatchResult } from './match';
 import { resultCopy } from './result-copy';
 import type { Lang } from './types';
 import { copyFor } from './copy';
+import { ACCORD_WORD } from './accords';
 
 export type CardFormat = '9x16' | '3x4';
 export const CARD_SIZE: Record<CardFormat, [number, number]> = { '9x16': [1080, 1920], '3x4': [1080, 1440] };
@@ -110,6 +111,21 @@ export interface CardInput {
   code: string;
 }
 
+function roundRect(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, r: number) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.arcTo(x + w, y, x + w, y + h, r);
+  ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r);
+  ctx.arcTo(x, y, x + w, y, r);
+  ctx.closePath();
+}
+
+function spaced(ctx: CanvasRenderingContext2D, px: number) {
+  // letterSpacing is supported in Chrome/Edge/Safari 17+; older browsers just ignore it.
+  (ctx as unknown as { letterSpacing: string }).letterSpacing = `${px}px`;
+}
+
 export async function renderCard(format: CardFormat, input: CardInput, canvas?: HTMLCanvasElement): Promise<HTMLCanvasElement> {
   const [W, H] = CARD_SIZE[format];
   const c = canvas ?? document.createElement('canvas');
@@ -126,57 +142,91 @@ export async function renderCard(format: CardFormat, input: CardInput, canvas?: 
   const color = result.type.color;
   const light = isLight(color);
   const ink = light ? '#2B2522' : '#FFFFFF';
-  const soft = light ? 'rgba(43,37,34,0.72)' : 'rgba(255,255,255,0.8)';
+  const soft = light ? 'rgba(43,37,34,0.68)' : 'rgba(255,255,255,0.78)';
   const tall = format === '9x16';
-  const M = 100; // side margin
+  const k = tall ? 1 : 0.86; // type scale for 3:4
+  const M = 110;
   const maxW = W - 2 * M;
 
-  // Background: card colour → 20% lighter tint.
+  // Background: card colour → 20% lighter tint, a soft light source and two faint rings for depth.
   const g = ctx.createLinearGradient(0, 0, W * 0.4, H);
   g.addColorStop(0, color);
   g.addColorStop(1, mix(color, '#FFFFFF', 0.2));
   ctx.fillStyle = g;
   ctx.fillRect(0, 0, W, H);
-
-  // Soft glow for depth.
-  const glow = ctx.createRadialGradient(W * 0.85, H * 0.12, 0, W * 0.85, H * 0.12, W * 0.7);
-  glow.addColorStop(0, 'rgba(255,255,255,0.28)');
+  const glow = ctx.createRadialGradient(W * 0.85, H * 0.1, 0, W * 0.85, H * 0.1, W * 0.8);
+  glow.addColorStop(0, 'rgba(255,255,255,0.32)');
   glow.addColorStop(1, 'rgba(255,255,255,0)');
   ctx.fillStyle = glow;
   ctx.fillRect(0, 0, W, H);
+  ctx.save();
+  ctx.strokeStyle = ink;
+  ctx.globalAlpha = 0.07;
+  ctx.lineWidth = 3;
+  for (const r of [W * 0.42, W * 0.58]) {
+    ctx.beginPath();
+    ctx.arc(W * 0.92, H * 0.06, r, 0, Math.PI * 2);
+    ctx.stroke();
+  }
+  // Inset frame
+  ctx.globalAlpha = 0.28;
+  ctx.lineWidth = 2;
+  roundRect(ctx, 44, 44, W - 88, H - 88, 36);
+  ctx.stroke();
+  ctx.restore();
 
   ctx.textAlign = 'center';
   ctx.textBaseline = 'alphabetic';
-  let y = tall ? 210 : 120;
+  let y = tall ? 190 : 140;
 
-  // Top third
+  // Label
   ctx.fillStyle = soft;
   ctx.font = `600 38px ${SANS}`;
+  spaced(ctx, 8);
   ctx.fillText(words.label.toUpperCase(), W / 2, y);
-  y += tall ? 190 : 150;
+  spaced(ctx, 0);
+  y += Math.round(190 * k);
 
+  // Type name (中文 large), then English type · wear-style
   ctx.fillStyle = ink;
-  const zhSize = fitFont(ctx, words.typeZh, DISPLAY, 700, tall ? 168 : 148, maxW);
+  const zhSize = fitFont(ctx, words.typeZh, DISPLAY, 700, Math.round(176 * k), maxW);
   ctx.fillText(words.typeZh, W / 2, y);
-  y += Math.round(zhSize * 0.62);
+  y += Math.round(zhSize * 0.55);
+  fitFont(ctx, words.cardSubline, DISPLAY, 500, Math.round(64 * k), maxW);
+  ctx.fillText(words.cardSubline, W / 2, y);
+  y += Math.round(48 * k);
 
-  fitFont(ctx, words.typeEn, DISPLAY, 500, tall ? 72 : 62, maxW);
-  ctx.fillText(words.typeEn, W / 2, y);
-  y += tall ? 84 : 70;
+  // Rarity pill: the brag line. Inverted colours so it reads first in a feed.
+  if (words.rarity) {
+    const size = tall ? 40 : 38;
+    ctx.font = `700 ${size}px ${SANS}`;
+    const lines = wrap(ctx, words.rarity, maxW - 80);
+    const lh = Math.round(size * 1.3);
+    const pw = Math.min(maxW, Math.max(...lines.map((l) => ctx.measureText(l).width)) + 80);
+    const ph = lines.length * lh + 34;
+    y += 20;
+    ctx.fillStyle = ink;
+    roundRect(ctx, (W - pw) / 2, y, pw, ph, ph / 2 > 60 ? 40 : ph / 2);
+    ctx.fill();
+    ctx.fillStyle = light ? '#FFFFFF' : color;
+    lines.forEach((l, i) => ctx.fillText(l, W / 2, y + 17 + size * 0.95 + i * lh));
+    y += ph + Math.round(62 * k);
+  }
 
   if (words.tagline) {
     ctx.fillStyle = soft;
-    ctx.font = `600 ${tall ? 46 : 42}px ${SANS}`;
+    ctx.font = `600 ${tall ? 44 : 40}px ${SANS}`;
+    spaced(ctx, 2);
     ctx.fillText(words.tagline, W / 2, y);
-    y += tall ? 70 : 50;
+    spaced(ctx, 0);
+    y += tall ? 64 : 44;
   }
 
-  // Divider
   ctx.globalAlpha = 0.35;
   ctx.fillStyle = ink;
-  ctx.fillRect(W / 2 - 60, y, 120, 4);
+  ctx.fillRect(W / 2 - 50, y, 100, 4);
   ctx.globalAlpha = 1;
-  y += tall ? 100 : 64;
+  y += tall ? 92 : 64;
 
   // Personality read
   const readSize = tall ? 46 : 38;
@@ -188,34 +238,45 @@ export async function renderCard(format: CardFormat, input: CardInput, canvas?: 
       ctx.fillText(l, W / 2, y);
       y += lh;
     }
-    if (i < words.lines.length - 1) y += Math.round(lh * 0.35);
+    if (i < words.lines.length - 1) y += Math.round(lh * 0.3);
   }
 
-  // Bottom block (measured from the bottom up)
+  // Bottom block, fixed from the bottom edge.
   const pick = result.picks[0]?.fragrance;
-  const bottomUrlY = H - (tall ? 130 : 90);
-  const pickNameY = bottomUrlY - (tall ? 150 : 120);
-  const pickLabelY = pickNameY - (tall ? 64 : 54);
+  const urlY = H - (tall ? 120 : 92);
+  const pickNameY = urlY - (tall ? 130 : 100);
+  const pickLabelY = pickNameY - (tall ? 62 : 52);
+  const bottom = (pick ? pickLabelY : urlY) - (tall ? 70 : 50);
 
-  // Radar fills the space between the read and the bottom block.
-  const top = y + 10;
-  const bottom = pick ? pickLabelY - 50 : bottomUrlY - 80;
-  const r = Math.max(90, Math.min(tall ? 250 : 170, (bottom - top) / 2 - 6));
-  drawRadar(ctx, result.ctx.u, W / 2, (top + bottom) / 2, r, ink);
+  // Top notes + radar fill whatever space is left.
+  let top = y + 10;
+  if (tall && bottom - top > 520) {
+    const notes = result.topAccords.map((d) => ACCORD_WORD[d][lang]).join(lang === 'zh' ? ' · ' : ' · ');
+    ctx.fillStyle = soft;
+    ctx.font = `600 36px ${SANS}`;
+    spaced(ctx, 4);
+    ctx.fillText(`${t('card.notes').toUpperCase()}  ${notes}`, W / 2, top + 40);
+    spaced(ctx, 0);
+    top += 70;
+  }
+  const r = Math.min(tall ? 230 : 160, (bottom - top) / 2 - 6);
+  if (r >= 70) drawRadar(ctx, result.ctx.u, W / 2, (top + bottom) / 2, r, ink);
 
   if (pick) {
     ctx.fillStyle = soft;
-    ctx.font = `600 38px ${SANS}`;
+    ctx.font = `600 36px ${SANS}`;
+    spaced(ctx, 6);
     ctx.fillText(t('card.pick').toUpperCase(), W / 2, pickLabelY);
+    spaced(ctx, 0);
     ctx.fillStyle = ink;
     const name = `${pick.brand} ${pick.name}`;
-    fitFont(ctx, name, DISPLAY, 600, tall ? 58 : 52, maxW);
+    fitFont(ctx, name, DISPLAY, 600, tall ? 58 : 50, maxW);
     ctx.fillText(name, W / 2, pickNameY);
   }
 
   ctx.fillStyle = soft;
-  ctx.font = `600 40px ${SANS}`;
-  ctx.fillText(`${host} · ${t('card.code')} ${code}`, W / 2, bottomUrlY);
+  ctx.font = `600 38px ${SANS}`;
+  ctx.fillText(`${host} · ${t('card.code')} ${code}`, W / 2, urlY);
   return c;
 }
 

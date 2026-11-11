@@ -80,7 +80,13 @@
     "about.p2": "It's for fun. Nothing here is science, and the match % is a display score, not a probability.",
     "about.p3": "No sign-up and no personal data. We count anonymous events (like quiz started, finished, rating given) without cookies, so we can see which questions people drop off on and which types feel accurate. Your answers live in your result link, not in a database.",
     "about.p4": "We may earn a commission from links. It never changes your match: ranking ignores commission, and our data doesn't even store it.",
-    "about.p5": "Brand names identify fragrances only; we're not affiliated with any brand. \"16-type personality\" refers to the four-letter types; MBTI is a trademark of The Myers-Briggs Company and we're not affiliated with it."
+    "about.p5": "Brand names identify fragrances only; we're not affiliated with any brand. \"16-type personality\" refers to the four-letter types; MBTI is a trademark of The Myers-Briggs Company and we're not affiliated with it.",
+    "rarity.rare": "Only {pct}% of people are {type}.",
+    "rarity.common": "Most-loved type: {pct}% of people are {type}.",
+    "rarity.estimate": "Rarity is an early estimate and will update as more people take the quiz.",
+    "more": "More",
+    "card.notes": "Top notes",
+    "compare.short": "They take the quiz, then you see both cards side by side."
   },
   "type16": {
     "INTJ": "You choose slowly, then never second-guess it.",

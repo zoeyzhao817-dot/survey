@@ -39,7 +39,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ resultId
   const en = resultCopy(r, 'en');
   const pick = r.picks[0]?.fragrance;
   const ink = isLight(r.type.color) ? '#2B2522' : '#FFFFFF';
-  const allText = `${en.typeZh}${en.typeEn}${en.label}${en.tagline}${en.lines.join('')}${pick ? pick.brand + pick.name : ''}${host}code ${shortCode(id)}·`;
+  const allText = `${en.typeZh}${en.cardSubline}${en.rarity ?? ''}${en.typeEn}${en.label}${en.tagline}${en.lines.join('')}${pick ? pick.brand + pick.name : ''}${host}code ${shortCode(id)}·`;
   const [serifZh, sans] = await Promise.all([loadFont('Noto+Serif+SC', 700, en.typeZh), loadFont('Inter', 500, allText)]);
   const fonts = [
     ...(serifZh ? [{ name: 'SerifZH', data: serifZh, weight: 700 as const }] : []),
@@ -62,7 +62,12 @@ export async function GET(req: Request, { params }: { params: Promise<{ resultId
         <div style={{ display: 'flex', flexDirection: 'column', width: '52%', justifyContent: 'center' }}>
           <div style={{ fontSize: 26, letterSpacing: 4, opacity: 0.75 }}>{en.label.toUpperCase()}</div>
           <div style={{ fontSize: 112, fontFamily: serifZh ? 'SerifZH' : 'Inter', lineHeight: 1.1, marginTop: 12 }}>{en.typeZh}</div>
-          <div style={{ fontSize: 48, marginTop: 4 }}>{en.typeEn}</div>
+          <div style={{ fontSize: 44, marginTop: 4 }}>{en.cardSubline}</div>
+          {en.rarity ? (
+            <div style={{ display: 'flex', marginTop: 18, padding: '10px 22px', borderRadius: 40, background: ink, color: ink === '#FFFFFF' ? r.type.color : '#FFFFFF', fontSize: 24, alignSelf: 'flex-start' }}>
+              {en.rarity}
+            </div>
+          ) : null}
           {en.tagline ? <div style={{ fontSize: 30, marginTop: 14, opacity: 0.8 }}>{en.tagline}</div> : null}
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', width: '48%', justifyContent: 'space-between', paddingLeft: 40 }}>

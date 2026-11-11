@@ -1,7 +1,8 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { findAnchor, searchAnchors } from '@/lib/data';
+import { findAnchor, searchAnchors, zhLabel } from '@/lib/data';
+import type { Anchor } from '@/lib/types';
 import { useI18n } from '@/lib/i18n';
 
 const POPULAR = ['dior-sauvage', 'lelabo-santal33', 'mj-daisy', 'chanel-coco-mademoiselle', 'mfk-br540', 'jm-wood-sage', 'ysl-black-opium', 'armani-acqua-di-gio'];
@@ -15,8 +16,11 @@ export default function AnchorSearch({
   max: number;
   onChange: (ids: string[]) => void;
 }) {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const zh = (a: Anchor): { brand?: string; name?: string } => (lang === 'zh' ? zhLabel(a) : {});
   const [q, setQ] = useState('');
+  // While a Chinese/Japanese keyboard is still composing, the box holds pinyin, not the final text.
+  const [composing, setComposing] = useState(false);
   const results = useMemo(
     () =>
       (q.trim() ? searchAnchors(q, 6) : POPULAR.map((id) => findAnchor(id)!).filter(Boolean)).filter((a) => !value.includes(a.id)).slice(0, 6),
@@ -33,7 +37,7 @@ export default function AnchorSearch({
           return (
             <span key={id} className="inline-flex max-w-full items-center gap-1 rounded-full bg-ink py-1.5 pl-3 pr-1.5 text-sm text-white">
               <span className="truncate">
-                {a.brand} {a.name}
+                {zh(a).brand ?? a.brand} {zh(a).name ?? a.name}
               </span>
               <button
                 onClick={() => onChange(value.filter((x) => x !== id))}
@@ -54,6 +58,11 @@ export default function AnchorSearch({
         disabled={full}
         value={q}
         onChange={(e) => setQ(e.target.value)}
+        onCompositionStart={() => setComposing(true)}
+        onCompositionEnd={(e) => {
+          setComposing(false);
+          setQ(e.currentTarget.value);
+        }}
         placeholder={t('q2.placeholder')}
         className="mt-3 h-12 w-full rounded-xl border border-line bg-white px-4 text-base text-ink outline-none placeholder:text-muted/70 focus:border-ink disabled:opacity-50"
         aria-label={t('q2.placeholder')}
@@ -69,12 +78,13 @@ export default function AnchorSearch({
               }}
               className="flex w-full items-baseline gap-2 border-b border-line/70 px-1 py-2.5 text-left active:bg-black/5"
             >
-              <span className="text-xs uppercase tracking-wide text-muted">{a.brand}</span>
+              <span className="shrink-0 text-xs uppercase tracking-wide text-muted">{zh(a).brand ?? a.brand}</span>
               <span className="font-medium text-ink">{a.name}</span>
+              {zh(a).name ? <span className="text-sm text-muted">{zh(a).name}</span> : null}
             </button>
           </li>
         ))}
-        {q.trim().length >= 2 && !results.length ? <li className="px-1 py-3 text-sm text-muted">{t('q2.noresults')}</li> : null}
+        {!composing && q.trim().length >= 2 && !results.length ? <li className="px-1 py-3 text-sm text-muted">{t('q2.noresults')}</li> : null}
       </ul>
     </div>
   );

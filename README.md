@@ -27,6 +27,7 @@ npm run build        # validates data/ first, then builds
 | `lib/card.ts` | Canvas share card, 1080×1920 and 1080×1440; the on-page card is the same render |
 | `lib/analytics.ts` | The 11 spec events, cookieless (Plausible or PostHog) |
 | `data/` | `questions.json`, `archetypes.json`, `copy.en.json`, `copy.zh.json`, `fragrances.json`, `anchors.json` |
+| `data/zh-names.json` | Chinese brand names and nicknames for the Q2 search (旷野, 黑鸦片…). After editing, `npm run zh-fold` regenerates `data/zh-fold.json` so Traditional input matches too |
 | `data/seed/*.psv` | Curator source for the catalogue; `npm run catalogue` regenerates the JSON |
 | `tests/personas.json` | 12 golden personas (currently 11/12 pass; CI needs 10) |
 
@@ -35,5 +36,5 @@ npm run build        # validates data/ first, then builds
 - **Fragrance API sync.** The 131 recommendable scents and 30 search-only anchors are a hand-curated seed with estimated accords and **estimated Singapore prices**. Check prices before launch. The weekly sync job and accord map wait until a provider and licence are chosen; `/api/search` has the hook for it.
 - **Affiliate links.** None yet. "Try a sample" and "Buy full size" open a Google search as a placeholder (`NEXT_PUBLIC_PLACEHOLDER_LINKS=0` hides them instead, as the spec intends at launch).
 - **Photo tiles.** Tiles use gradient + emoji. Drop licensed photos in `public/tiles/` and set `image` on an option in `questions.json`.
-- **Copy review.** All 38 snippets exist in both languages and should get a pass from a native writer.
+- **Copy review.** All 38 snippets exist in both languages and should get a pass from a native writer. Same for the Chinese scent names in `data/zh-names.json`.
 - **Domain and name** are still placeholders.

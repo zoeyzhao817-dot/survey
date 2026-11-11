@@ -96,6 +96,14 @@ const ids = [...fr.map((f) => f.id), ...an.map((a) => a.id)];
 const dupes = ids.filter((id, i) => ids.indexOf(id) !== i);
 if (dupes.length) errors.push(`Duplicate fragrance ids: ${dupes.join(', ')}`);
 
+const zhNames = z
+  .object({ _note: z.string().optional(), brands: z.record(z.array(z.string().min(1)).min(1)), names: z.record(z.array(z.string().min(1)).min(1)) })
+  .strict()
+  .parse(load('zh-names.json'));
+const brands = new Set([...fr, ...an].map((f) => f.brand));
+for (const b of Object.keys(zhNames.brands)) if (!brands.has(b)) errors.push(`zh-names.json: unknown brand "${b}"`);
+for (const id of Object.keys(zhNames.names)) if (!ids.includes(id)) errors.push(`zh-names.json: unknown scent id "${id}"`);
+
 for (const k of Object.keys(en.ui)) if (!(k in zh.ui)) errors.push(`copy.zh.json missing ui.${k}`);
 for (const k of Object.keys(zh.ui)) if (!(k in en.ui)) errors.push(`copy.en.json missing ui.${k}`);
 const types = qs.find((q) => q.id === 'q9')!.options.map((o) => o.id);

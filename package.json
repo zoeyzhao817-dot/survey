@@ -11,7 +11,8 @@
     "lint": "tsc --noEmit",
     "test": "vitest run",
     "validate": "tsx scripts/validate-data.ts",
-    "catalogue": "tsx scripts/build-catalogue.ts"
+    "catalogue": "tsx scripts/build-catalogue.ts",
+    "zh-fold": "tsx scripts/build-zh-fold.ts"
   },
   "dependencies": {
     "next": "^15.5.29",
@@ -24,6 +25,7 @@
     "@types/react-dom": "^19.2.2",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.10",
+    "opencc-js": "^1.4.2",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19",
     "tsx": "^4.20.6",
